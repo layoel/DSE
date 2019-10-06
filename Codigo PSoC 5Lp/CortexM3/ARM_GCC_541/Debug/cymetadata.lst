@@ -1,0 +1,3104 @@
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 2464
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 03       		.byte	3
+  34 0005 64       		.byte	100
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 04       		.byte	4
+  38 0009 65       		.byte	101
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 01       		.byte	1
+  42 000d 01       		.byte	1
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 01       		.byte	1
+  46 0011 03       		.byte	3
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 53       		.byte	83
+  50 0015 04       		.byte	4
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 30       		.byte	48
+  54 0019 05       		.byte	5
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 61       		.byte	97
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 2
+
+
+  58 001d 06       		.byte	6
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 47       		.byte	71
+  62 0021 07       		.byte	7
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 52       		.byte	82
+  66 0025 08       		.byte	8
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 30       		.byte	48
+  70 0029 09       		.byte	9
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 01       		.byte	1
+  74 002d 0F       		.byte	15
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 4E       		.byte	78
+  78 0031 14       		.byte	20
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 36       		.byte	54
+  82 0035 15       		.byte	21
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 50       		.byte	80
+  86 0039 16       		.byte	22
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 3C       		.byte	60
+  90 003d 17       		.byte	23
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 63       		.byte	99
+  94 0041 18       		.byte	24
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 4A       		.byte	74
+  98 0045 19       		.byte	25
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 44       		.byte	68
+ 102 0049 1A       		.byte	26
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 46       		.byte	70
+ 106 004d 1B       		.byte	27
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 05       		.byte	5
+ 110 0051 40       		.byte	64
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 05       		.byte	5
+ 114 0055 41       		.byte	65
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 0A       		.byte	10
+ 118 0059 42       		.byte	66
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 07       		.byte	7
+ 122 005d 43       		.byte	67
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 04       		.byte	4
+ 126 0061 44       		.byte	68
+ 127 0062 01       		.byte	1
+ 128 0063 40       		.byte	64
+ 129 0064 02       		.byte	2
+ 130 0065 46       		.byte	70
+ 131 0066 01       		.byte	1
+ 132 0067 40       		.byte	64
+ 133 0068 01       		.byte	1
+ 134 0069 47       		.byte	71
+ 135 006a 01       		.byte	1
+ 136 006b 40       		.byte	64
+ 137 006c 10       		.byte	16
+ 138 006d 48       		.byte	72
+ 139 006e 01       		.byte	1
+ 140 006f 40       		.byte	64
+ 141 0070 1A       		.byte	26
+ 142 0071 49       		.byte	73
+ 143 0072 01       		.byte	1
+ 144 0073 40       		.byte	64
+ 145 0074 0C       		.byte	12
+ 146 0075 4C       		.byte	76
+ 147 0076 01       		.byte	1
+ 148 0077 40       		.byte	64
+ 149 0078 0D       		.byte	13
+ 150 0079 4D       		.byte	77
+ 151 007a 01       		.byte	1
+ 152 007b 40       		.byte	64
+ 153 007c 0A       		.byte	10
+ 154 007d 50       		.byte	80
+ 155 007e 01       		.byte	1
+ 156 007f 40       		.byte	64
+ 157 0080 02       		.byte	2
+ 158 0081 51       		.byte	81
+ 159 0082 01       		.byte	1
+ 160 0083 40       		.byte	64
+ 161 0084 78       		.byte	120
+ 162 0085 01       		.byte	1
+ 163 0086 79       		.byte	121
+ 164 0087 03       		.byte	3
+ 165 0088 84       		.byte	-124
+ 166 0089 0F       		.byte	15
+ 167 008a 85       		.byte	-123
+ 168 008b 0D       		.byte	13
+ 169 008c 89       		.byte	-119
+ 170 008d 72       		.byte	114
+ 171 008e 85       		.byte	-123
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 4
+
+
+ 172 008f 0D       		.byte	13
+ 173 0090 87       		.byte	-121
+ 174 0091 0D       		.byte	13
+ 175 0092 88       		.byte	-120
+ 176 0093 0F       		.byte	15
+ 177 0094 8B       		.byte	-117
+ 178 0095 38       		.byte	56
+ 179 0096 8C       		.byte	-116
+ 180 0097 10       		.byte	16
+ 181 0098 94       		.byte	-108
+ 182 0099 20       		.byte	32
+ 183 009a 01       		.byte	1
+ 184 009b 03       		.byte	3
+ 185 009c 06       		.byte	6
+ 186 009d 02       		.byte	2
+ 187 009e 07       		.byte	7
+ 188 009f 04       		.byte	4
+ 189 00a0 08       		.byte	8
+ 190 00a1 01       		.byte	1
+ 191 00a2 0F       		.byte	15
+ 192 00a3 07       		.byte	7
+ 193 00a4 12       		.byte	18
+ 194 00a5 03       		.byte	3
+ 195 00a6 17       		.byte	23
+ 196 00a7 02       		.byte	2
+ 197 00a8 1B       		.byte	27
+ 198 00a9 04       		.byte	4
+ 199 00aa 1E       		.byte	30
+ 200 00ab 01       		.byte	1
+ 201 00ac 1F       		.byte	31
+ 202 00ad 07       		.byte	7
+ 203 00ae 21       		.byte	33
+ 204 00af 01       		.byte	1
+ 205 00b0 22       		.byte	34
+ 206 00b1 03       		.byte	3
+ 207 00b2 2B       		.byte	43
+ 208 00b3 01       		.byte	1
+ 209 00b4 2C       		.byte	44
+ 210 00b5 03       		.byte	3
+ 211 00b6 33       		.byte	51
+ 212 00b7 03       		.byte	3
+ 213 00b8 34       		.byte	52
+ 214 00b9 03       		.byte	3
+ 215 00ba 37       		.byte	55
+ 216 00bb 04       		.byte	4
+ 217 00bc 3F       		.byte	63
+ 218 00bd 40       		.byte	64
+ 219 00be 40       		.byte	64
+ 220 00bf 30       		.byte	48
+ 221 00c0 41       		.byte	65
+ 222 00c1 01       		.byte	1
+ 223 00c2 49       		.byte	73
+ 224 00c3 FF       		.byte	-1
+ 225 00c4 4A       		.byte	74
+ 226 00c5 FF       		.byte	-1
+ 227 00c6 4B       		.byte	75
+ 228 00c7 FF       		.byte	-1
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 5
+
+
+ 229 00c8 4D       		.byte	77
+ 230 00c9 A0       		.byte	-96
+ 231 00ca 4F       		.byte	79
+ 232 00cb 04       		.byte	4
+ 233 00cc 50       		.byte	80
+ 234 00cd 18       		.byte	24
+ 235 00ce 54       		.byte	84
+ 236 00cf 03       		.byte	3
+ 237 00d0 56       		.byte	86
+ 238 00d1 04       		.byte	4
+ 239 00d2 58       		.byte	88
+ 240 00d3 04       		.byte	4
+ 241 00d4 59       		.byte	89
+ 242 00d5 04       		.byte	4
+ 243 00d6 5A       		.byte	90
+ 244 00d7 04       		.byte	4
+ 245 00d8 5B       		.byte	91
+ 246 00d9 04       		.byte	4
+ 247 00da 5C       		.byte	92
+ 248 00db 11       		.byte	17
+ 249 00dc 5D       		.byte	93
+ 250 00dd 19       		.byte	25
+ 251 00de 5F       		.byte	95
+ 252 00df 05       		.byte	5
+ 253 00e0 60       		.byte	96
+ 254 00e1 40       		.byte	64
+ 255 00e2 62       		.byte	98
+ 256 00e3 C0       		.byte	-64
+ 257 00e4 64       		.byte	100
+ 258 00e5 40       		.byte	64
+ 259 00e6 65       		.byte	101
+ 260 00e7 40       		.byte	64
+ 261 00e8 66       		.byte	102
+ 262 00e9 C0       		.byte	-64
+ 263 00ea 68       		.byte	104
+ 264 00eb C0       		.byte	-64
+ 265 00ec 6A       		.byte	106
+ 266 00ed C0       		.byte	-64
+ 267 00ee 6C       		.byte	108
+ 268 00ef C0       		.byte	-64
+ 269 00f0 6E       		.byte	110
+ 270 00f1 C0       		.byte	-64
+ 271 00f2 83       		.byte	-125
+ 272 00f3 01       		.byte	1
+ 273 00f4 86       		.byte	-122
+ 274 00f5 01       		.byte	1
+ 275 00f6 88       		.byte	-120
+ 276 00f7 01       		.byte	1
+ 277 00f8 9B       		.byte	-101
+ 278 00f9 01       		.byte	1
+ 279 00fa A4       		.byte	-92
+ 280 00fb 01       		.byte	1
+ 281 00fc B5       		.byte	-75
+ 282 00fd 01       		.byte	1
+ 283 00fe B6       		.byte	-74
+ 284 00ff 01       		.byte	1
+ 285 0100 B9       		.byte	-71
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 6
+
+
+ 286 0101 08       		.byte	8
+ 287 0102 BF       		.byte	-65
+ 288 0103 14       		.byte	20
+ 289 0104 C0       		.byte	-64
+ 290 0105 20       		.byte	32
+ 291 0106 C1       		.byte	-63
+ 292 0107 04       		.byte	4
+ 293 0108 C5       		.byte	-59
+ 294 0109 D0       		.byte	-48
+ 295 010a C6       		.byte	-58
+ 296 010b 10       		.byte	16
+ 297 010c C7       		.byte	-57
+ 298 010d 20       		.byte	32
+ 299 010e C8       		.byte	-56
+ 300 010f 3A       		.byte	58
+ 301 0110 C9       		.byte	-55
+ 302 0111 FF       		.byte	-1
+ 303 0112 CA       		.byte	-54
+ 304 0113 FF       		.byte	-1
+ 305 0114 CB       		.byte	-53
+ 306 0115 FF       		.byte	-1
+ 307 0116 CD       		.byte	-51
+ 308 0117 AF       		.byte	-81
+ 309 0118 CE       		.byte	-50
+ 310 0119 0F       		.byte	15
+ 311 011a CF       		.byte	-49
+ 312 011b 04       		.byte	4
+ 313 011c D0       		.byte	-48
+ 314 011d 18       		.byte	24
+ 315 011e D4       		.byte	-44
+ 316 011f 05       		.byte	5
+ 317 0120 D8       		.byte	-40
+ 318 0121 04       		.byte	4
+ 319 0122 D9       		.byte	-39
+ 320 0123 04       		.byte	4
+ 321 0124 DA       		.byte	-38
+ 322 0125 04       		.byte	4
+ 323 0126 DB       		.byte	-37
+ 324 0127 04       		.byte	4
+ 325 0128 DC       		.byte	-36
+ 326 0129 09       		.byte	9
+ 327 012a DD       		.byte	-35
+ 328 012b 99       		.byte	-103
+ 329 012c DF       		.byte	-33
+ 330 012d 01       		.byte	1
+ 331 012e E0       		.byte	-32
+ 332 012f 40       		.byte	64
+ 333 0130 E2       		.byte	-30
+ 334 0131 C0       		.byte	-64
+ 335 0132 E4       		.byte	-28
+ 336 0133 40       		.byte	64
+ 337 0134 E5       		.byte	-27
+ 338 0135 40       		.byte	64
+ 339 0136 E6       		.byte	-26
+ 340 0137 C0       		.byte	-64
+ 341 0138 E8       		.byte	-24
+ 342 0139 C0       		.byte	-64
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 7
+
+
+ 343 013a EA       		.byte	-22
+ 344 013b C0       		.byte	-64
+ 345 013c EC       		.byte	-20
+ 346 013d C0       		.byte	-64
+ 347 013e EE       		.byte	-18
+ 348 013f C0       		.byte	-64
+ 349 0140 00       		.byte	0
+ 350 0141 04       		.byte	4
+ 351 0142 01       		.byte	1
+ 352 0143 20       		.byte	32
+ 353 0144 06       		.byte	6
+ 354 0145 08       		.byte	8
+ 355 0146 07       		.byte	7
+ 356 0147 20       		.byte	32
+ 357 0148 08       		.byte	8
+ 358 0149 40       		.byte	64
+ 359 014a 0B       		.byte	11
+ 360 014b 80       		.byte	-128
+ 361 014c 10       		.byte	16
+ 362 014d 80       		.byte	-128
+ 363 014e 12       		.byte	18
+ 364 014f 02       		.byte	2
+ 365 0150 16       		.byte	22
+ 366 0151 20       		.byte	32
+ 367 0152 18       		.byte	24
+ 368 0153 04       		.byte	4
+ 369 0154 1F       		.byte	31
+ 370 0155 80       		.byte	-128
+ 371 0156 22       		.byte	34
+ 372 0157 44       		.byte	68
+ 373 0158 24       		.byte	36
+ 374 0159 20       		.byte	32
+ 375 015a 27       		.byte	39
+ 376 015b 08       		.byte	8
+ 377 015c 28       		.byte	40
+ 378 015d 40       		.byte	64
+ 379 015e 29       		.byte	41
+ 380 015f 20       		.byte	32
+ 381 0160 30       		.byte	48
+ 382 0161 A0       		.byte	-96
+ 383 0162 32       		.byte	50
+ 384 0163 04       		.byte	4
+ 385 0164 37       		.byte	55
+ 386 0165 20       		.byte	32
+ 387 0166 38       		.byte	56
+ 388 0167 04       		.byte	4
+ 389 0168 39       		.byte	57
+ 390 0169 02       		.byte	2
+ 391 016a 3B       		.byte	59
+ 392 016b 80       		.byte	-128
+ 393 016c 3E       		.byte	62
+ 394 016d 02       		.byte	2
+ 395 016e 41       		.byte	65
+ 396 016f 08       		.byte	8
+ 397 0170 42       		.byte	66
+ 398 0171 02       		.byte	2
+ 399 0172 45       		.byte	69
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 8
+
+
+ 400 0173 01       		.byte	1
+ 401 0174 47       		.byte	71
+ 402 0175 20       		.byte	32
+ 403 0176 4F       		.byte	79
+ 404 0177 01       		.byte	1
+ 405 0178 55       		.byte	85
+ 406 0179 01       		.byte	1
+ 407 017a 56       		.byte	86
+ 408 017b 2A       		.byte	42
+ 409 017c 59       		.byte	89
+ 410 017d 05       		.byte	5
+ 411 017e 5A       		.byte	90
+ 412 017f A0       		.byte	-96
+ 413 0180 5C       		.byte	92
+ 414 0181 40       		.byte	64
+ 415 0182 5F       		.byte	95
+ 416 0183 09       		.byte	9
+ 417 0184 63       		.byte	99
+ 418 0185 40       		.byte	64
+ 419 0186 79       		.byte	121
+ 420 0187 02       		.byte	2
+ 421 0188 87       		.byte	-121
+ 422 0189 40       		.byte	64
+ 423 018a 94       		.byte	-108
+ 424 018b 20       		.byte	32
+ 425 018c C0       		.byte	-64
+ 426 018d 66       		.byte	102
+ 427 018e C2       		.byte	-62
+ 428 018f 09       		.byte	9
+ 429 0190 C4       		.byte	-60
+ 430 0191 29       		.byte	41
+ 431 0192 CA       		.byte	-54
+ 432 0193 05       		.byte	5
+ 433 0194 CC       		.byte	-52
+ 434 0195 2E       		.byte	46
+ 435 0196 CE       		.byte	-50
+ 436 0197 8B       		.byte	-117
+ 437 0198 D0       		.byte	-48
+ 438 0199 AA       		.byte	-86
+ 439 019a D6       		.byte	-42
+ 440 019b DF       		.byte	-33
+ 441 019c D8       		.byte	-40
+ 442 019d 01       		.byte	1
+ 443 019e DE       		.byte	-34
+ 444 019f 01       		.byte	1
+ 445 01a0 00       		.byte	0
+ 446 01a1 10       		.byte	16
+ 447 01a2 01       		.byte	1
+ 448 01a3 08       		.byte	8
+ 449 01a4 02       		.byte	2
+ 450 01a5 06       		.byte	6
+ 451 01a6 03       		.byte	3
+ 452 01a7 07       		.byte	7
+ 453 01a8 09       		.byte	9
+ 454 01a9 01       		.byte	1
+ 455 01aa 0B       		.byte	11
+ 456 01ab 02       		.byte	2
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 9
+
+
+ 457 01ac 0C       		.byte	12
+ 458 01ad 04       		.byte	4
+ 459 01ae 0D       		.byte	13
+ 460 01af 0F       		.byte	15
+ 461 01b0 0E       		.byte	14
+ 462 01b1 08       		.byte	8
+ 463 01b2 13       		.byte	19
+ 464 01b3 04       		.byte	4
+ 465 01b4 18       		.byte	24
+ 466 01b5 06       		.byte	6
+ 467 01b6 19       		.byte	25
+ 468 01b7 07       		.byte	7
+ 469 01b8 1A       		.byte	26
+ 470 01b9 19       		.byte	25
+ 471 01ba 1B       		.byte	27
+ 472 01bb 08       		.byte	8
+ 473 01bc 20       		.byte	32
+ 474 01bd 1F       		.byte	31
+ 475 01be 24       		.byte	36
+ 476 01bf 01       		.byte	1
+ 477 01c0 25       		.byte	37
+ 478 01c1 02       		.byte	2
+ 479 01c2 26       		.byte	38
+ 480 01c3 02       		.byte	2
+ 481 01c4 27       		.byte	39
+ 482 01c5 01       		.byte	1
+ 483 01c6 28       		.byte	40
+ 484 01c7 09       		.byte	9
+ 485 01c8 2A       		.byte	42
+ 486 01c9 06       		.byte	6
+ 487 01ca 33       		.byte	51
+ 488 01cb 0F       		.byte	15
+ 489 01cc 34       		.byte	52
+ 490 01cd 1F       		.byte	31
+ 491 01ce 40       		.byte	64
+ 492 01cf 53       		.byte	83
+ 493 01d0 41       		.byte	65
+ 494 01d1 04       		.byte	4
+ 495 01d2 42       		.byte	66
+ 496 01d3 02       		.byte	2
+ 497 01d4 49       		.byte	73
+ 498 01d5 FF       		.byte	-1
+ 499 01d6 4A       		.byte	74
+ 500 01d7 FF       		.byte	-1
+ 501 01d8 4B       		.byte	75
+ 502 01d9 FF       		.byte	-1
+ 503 01da 4F       		.byte	79
+ 504 01db 01       		.byte	1
+ 505 01dc 50       		.byte	80
+ 506 01dd 18       		.byte	24
+ 507 01de 58       		.byte	88
+ 508 01df 04       		.byte	4
+ 509 01e0 59       		.byte	89
+ 510 01e1 04       		.byte	4
+ 511 01e2 5A       		.byte	90
+ 512 01e3 04       		.byte	4
+ 513 01e4 5C       		.byte	92
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 10
+
+
+ 514 01e5 11       		.byte	17
+ 515 01e6 5D       		.byte	93
+ 516 01e7 01       		.byte	1
+ 517 01e8 5F       		.byte	95
+ 518 01e9 01       		.byte	1
+ 519 01ea 60       		.byte	96
+ 520 01eb 40       		.byte	64
+ 521 01ec 62       		.byte	98
+ 522 01ed 40       		.byte	64
+ 523 01ee 64       		.byte	100
+ 524 01ef 40       		.byte	64
+ 525 01f0 65       		.byte	101
+ 526 01f1 40       		.byte	64
+ 527 01f2 66       		.byte	102
+ 528 01f3 80       		.byte	-128
+ 529 01f4 68       		.byte	104
+ 530 01f5 80       		.byte	-128
+ 531 01f6 6A       		.byte	106
+ 532 01f7 80       		.byte	-128
+ 533 01f8 6C       		.byte	108
+ 534 01f9 80       		.byte	-128
+ 535 01fa 6E       		.byte	110
+ 536 01fb 80       		.byte	-128
+ 537 01fc 82       		.byte	-126
+ 538 01fd 1E       		.byte	30
+ 539 01fe 86       		.byte	-122
+ 540 01ff 01       		.byte	1
+ 541 0200 87       		.byte	-121
+ 542 0201 01       		.byte	1
+ 543 0202 8B       		.byte	-117
+ 544 0203 01       		.byte	1
+ 545 0204 8C       		.byte	-116
+ 546 0205 1E       		.byte	30
+ 547 0206 8F       		.byte	-113
+ 548 0207 01       		.byte	1
+ 549 0208 92       		.byte	-110
+ 550 0209 01       		.byte	1
+ 551 020a 94       		.byte	-108
+ 552 020b 0A       		.byte	10
+ 553 020c 96       		.byte	-106
+ 554 020d 14       		.byte	20
+ 555 020e 98       		.byte	-104
+ 556 020f 06       		.byte	6
+ 557 0210 9A       		.byte	-102
+ 558 0211 18       		.byte	24
+ 559 0212 9F       		.byte	-97
+ 560 0213 01       		.byte	1
+ 561 0214 A2       		.byte	-94
+ 562 0215 01       		.byte	1
+ 563 0216 A8       		.byte	-88
+ 564 0217 06       		.byte	6
+ 565 0218 AA       		.byte	-86
+ 566 0219 18       		.byte	24
+ 567 021a AC       		.byte	-84
+ 568 021b 0A       		.byte	10
+ 569 021c AE       		.byte	-82
+ 570 021d 14       		.byte	20
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 11
+
+
+ 571 021e B1       		.byte	-79
+ 572 021f 01       		.byte	1
+ 573 0220 B2       		.byte	-78
+ 574 0221 1E       		.byte	30
+ 575 0222 B6       		.byte	-74
+ 576 0223 01       		.byte	1
+ 577 0224 BE       		.byte	-66
+ 578 0225 40       		.byte	64
+ 579 0226 C0       		.byte	-64
+ 580 0227 46       		.byte	70
+ 581 0228 C1       		.byte	-63
+ 582 0229 05       		.byte	5
+ 583 022a C2       		.byte	-62
+ 584 022b 02       		.byte	2
+ 585 022c C5       		.byte	-59
+ 586 022d EC       		.byte	-20
+ 587 022e C6       		.byte	-58
+ 588 022f 20       		.byte	32
+ 589 0230 C8       		.byte	-56
+ 590 0231 0B       		.byte	11
+ 591 0232 C9       		.byte	-55
+ 592 0233 FF       		.byte	-1
+ 593 0234 CA       		.byte	-54
+ 594 0235 FF       		.byte	-1
+ 595 0236 CB       		.byte	-53
+ 596 0237 FF       		.byte	-1
+ 597 0238 CD       		.byte	-51
+ 598 0239 83       		.byte	-125
+ 599 023a CE       		.byte	-50
+ 600 023b 03       		.byte	3
+ 601 023c CF       		.byte	-49
+ 602 023d 01       		.byte	1
+ 603 023e D0       		.byte	-48
+ 604 023f 18       		.byte	24
+ 605 0240 D2       		.byte	-46
+ 606 0241 93       		.byte	-109
+ 607 0242 D8       		.byte	-40
+ 608 0243 04       		.byte	4
+ 609 0244 D9       		.byte	-39
+ 610 0245 04       		.byte	4
+ 611 0246 DA       		.byte	-38
+ 612 0247 04       		.byte	4
+ 613 0248 DB       		.byte	-37
+ 614 0249 04       		.byte	4
+ 615 024a DC       		.byte	-36
+ 616 024b 11       		.byte	17
+ 617 024c DD       		.byte	-35
+ 618 024d 11       		.byte	17
+ 619 024e DF       		.byte	-33
+ 620 024f 01       		.byte	1
+ 621 0250 E0       		.byte	-32
+ 622 0251 40       		.byte	64
+ 623 0252 E2       		.byte	-30
+ 624 0253 40       		.byte	64
+ 625 0254 E4       		.byte	-28
+ 626 0255 40       		.byte	64
+ 627 0256 E5       		.byte	-27
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 12
+
+
+ 628 0257 40       		.byte	64
+ 629 0258 E6       		.byte	-26
+ 630 0259 80       		.byte	-128
+ 631 025a E8       		.byte	-24
+ 632 025b 80       		.byte	-128
+ 633 025c EA       		.byte	-22
+ 634 025d 80       		.byte	-128
+ 635 025e EC       		.byte	-20
+ 636 025f 80       		.byte	-128
+ 637 0260 EE       		.byte	-18
+ 638 0261 80       		.byte	-128
+ 639 0262 00       		.byte	0
+ 640 0263 04       		.byte	4
+ 641 0264 01       		.byte	1
+ 642 0265 03       		.byte	3
+ 643 0266 02       		.byte	2
+ 644 0267 02       		.byte	2
+ 645 0268 05       		.byte	5
+ 646 0269 02       		.byte	2
+ 647 026a 07       		.byte	7
+ 648 026b 02       		.byte	2
+ 649 026c 09       		.byte	9
+ 650 026d 24       		.byte	36
+ 651 026e 0A       		.byte	10
+ 652 026f 40       		.byte	64
+ 653 0270 0B       		.byte	11
+ 654 0271 80       		.byte	-128
+ 655 0272 0D       		.byte	13
+ 656 0273 20       		.byte	32
+ 657 0274 10       		.byte	16
+ 658 0275 88       		.byte	-120
+ 659 0276 11       		.byte	17
+ 660 0277 40       		.byte	64
+ 661 0278 15       		.byte	21
+ 662 0279 02       		.byte	2
+ 663 027a 17       		.byte	23
+ 664 027b 18       		.byte	24
+ 665 027c 1A       		.byte	26
+ 666 027d 22       		.byte	34
+ 667 027e 1D       		.byte	29
+ 668 027f 20       		.byte	32
+ 669 0280 1F       		.byte	31
+ 670 0281 20       		.byte	32
+ 671 0282 21       		.byte	33
+ 672 0283 03       		.byte	3
+ 673 0284 22       		.byte	34
+ 674 0285 02       		.byte	2
+ 675 0286 23       		.byte	35
+ 676 0287 40       		.byte	64
+ 677 0288 25       		.byte	37
+ 678 0289 04       		.byte	4
+ 679 028a 27       		.byte	39
+ 680 028b 10       		.byte	16
+ 681 028c 2F       		.byte	47
+ 682 028d 20       		.byte	32
+ 683 028e 30       		.byte	48
+ 684 028f 80       		.byte	-128
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 13
+
+
+ 685 0290 32       		.byte	50
+ 686 0291 01       		.byte	1
+ 687 0292 33       		.byte	51
+ 688 0293 01       		.byte	1
+ 689 0294 37       		.byte	55
+ 690 0295 12       		.byte	18
+ 691 0296 38       		.byte	56
+ 692 0297 04       		.byte	4
+ 693 0298 3A       		.byte	58
+ 694 0299 10       		.byte	16
+ 695 029a 3B       		.byte	59
+ 696 029b 80       		.byte	-128
+ 697 029c 3D       		.byte	61
+ 698 029d 01       		.byte	1
+ 699 029e 3E       		.byte	62
+ 700 029f 10       		.byte	16
+ 701 02a0 3F       		.byte	63
+ 702 02a1 40       		.byte	64
+ 703 02a2 40       		.byte	64
+ 704 02a3 08       		.byte	8
+ 705 02a4 43       		.byte	67
+ 706 02a5 01       		.byte	1
+ 707 02a6 44       		.byte	68
+ 708 02a7 08       		.byte	8
+ 709 02a8 45       		.byte	69
+ 710 02a9 02       		.byte	2
+ 711 02aa 46       		.byte	70
+ 712 02ab 10       		.byte	16
+ 713 02ac 49       		.byte	73
+ 714 02ad 05       		.byte	5
+ 715 02ae 4A       		.byte	74
+ 716 02af 02       		.byte	2
+ 717 02b0 4B       		.byte	75
+ 718 02b1 20       		.byte	32
+ 719 02b2 4E       		.byte	78
+ 720 02b3 01       		.byte	1
+ 721 02b4 50       		.byte	80
+ 722 02b5 20       		.byte	32
+ 723 02b6 52       		.byte	82
+ 724 02b7 10       		.byte	16
+ 725 02b8 53       		.byte	83
+ 726 02b9 10       		.byte	16
+ 727 02ba 68       		.byte	104
+ 728 02bb 08       		.byte	8
+ 729 02bc 69       		.byte	105
+ 730 02bd 40       		.byte	64
+ 731 02be 6A       		.byte	106
+ 732 02bf 10       		.byte	16
+ 733 02c0 6B       		.byte	107
+ 734 02c1 0A       		.byte	10
+ 735 02c2 70       		.byte	112
+ 736 02c3 80       		.byte	-128
+ 737 02c4 72       		.byte	114
+ 738 02c5 40       		.byte	64
+ 739 02c6 90       		.byte	-112
+ 740 02c7 04       		.byte	4
+ 741 02c8 94       		.byte	-108
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 14
+
+
+ 742 02c9 40       		.byte	64
+ 743 02ca 95       		.byte	-107
+ 744 02cb 02       		.byte	2
+ 745 02cc 96       		.byte	-106
+ 746 02cd 20       		.byte	32
+ 747 02ce 97       		.byte	-105
+ 748 02cf 80       		.byte	-128
+ 749 02d0 9A       		.byte	-102
+ 750 02d1 28       		.byte	40
+ 751 02d2 9C       		.byte	-100
+ 752 02d3 40       		.byte	64
+ 753 02d4 9D       		.byte	-99
+ 754 02d5 25       		.byte	37
+ 755 02d6 9F       		.byte	-97
+ 756 02d7 20       		.byte	32
+ 757 02d8 A4       		.byte	-92
+ 758 02d9 A0       		.byte	-96
+ 759 02da A5       		.byte	-91
+ 760 02db 08       		.byte	8
+ 761 02dc A6       		.byte	-90
+ 762 02dd 02       		.byte	2
+ 763 02de AF       		.byte	-81
+ 764 02df 80       		.byte	-128
+ 765 02e0 C0       		.byte	-64
+ 766 02e1 9D       		.byte	-99
+ 767 02e2 C2       		.byte	-62
+ 768 02e3 4E       		.byte	78
+ 769 02e4 C4       		.byte	-60
+ 770 02e5 7B       		.byte	123
+ 771 02e6 CA       		.byte	-54
+ 772 02e7 40       		.byte	64
+ 773 02e8 CC       		.byte	-52
+ 774 02e9 A8       		.byte	-88
+ 775 02ea CE       		.byte	-50
+ 776 02eb BE       		.byte	-66
+ 777 02ec D0       		.byte	-48
+ 778 02ed E5       		.byte	-27
+ 779 02ee D2       		.byte	-46
+ 780 02ef 1C       		.byte	28
+ 781 02f0 03       		.byte	3
+ 782 02f1 08       		.byte	8
+ 783 02f2 04       		.byte	4
+ 784 02f3 06       		.byte	6
+ 785 02f4 05       		.byte	5
+ 786 02f5 0A       		.byte	10
+ 787 02f6 06       		.byte	6
+ 788 02f7 01       		.byte	1
+ 789 02f8 07       		.byte	7
+ 790 02f9 04       		.byte	4
+ 791 02fa 08       		.byte	8
+ 792 02fb 01       		.byte	1
+ 793 02fc 09       		.byte	9
+ 794 02fd 03       		.byte	3
+ 795 02fe 0A       		.byte	10
+ 796 02ff 06       		.byte	6
+ 797 0300 0B       		.byte	11
+ 798 0301 04       		.byte	4
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 15
+
+
+ 799 0302 0D       		.byte	13
+ 800 0303 03       		.byte	3
+ 801 0304 0E       		.byte	14
+ 802 0305 01       		.byte	1
+ 803 0306 0F       		.byte	15
+ 804 0307 04       		.byte	4
+ 805 0308 10       		.byte	16
+ 806 0309 07       		.byte	7
+ 807 030a 13       		.byte	19
+ 808 030b 05       		.byte	5
+ 809 030c 14       		.byte	20
+ 810 030d 06       		.byte	6
+ 811 030e 18       		.byte	24
+ 812 030f 06       		.byte	6
+ 813 0310 1A       		.byte	26
+ 814 0311 01       		.byte	1
+ 815 0312 1C       		.byte	28
+ 816 0313 04       		.byte	4
+ 817 0314 1D       		.byte	29
+ 818 0315 03       		.byte	3
+ 819 0316 1F       		.byte	31
+ 820 0317 0C       		.byte	12
+ 821 0318 24       		.byte	36
+ 822 0319 02       		.byte	2
+ 823 031a 31       		.byte	49
+ 824 031b 0F       		.byte	15
+ 825 031c 34       		.byte	52
+ 826 031d 07       		.byte	7
+ 827 031e 3A       		.byte	58
+ 828 031f 20       		.byte	32
+ 829 0320 3B       		.byte	59
+ 830 0321 02       		.byte	2
+ 831 0322 58       		.byte	88
+ 832 0323 04       		.byte	4
+ 833 0324 59       		.byte	89
+ 834 0325 04       		.byte	4
+ 835 0326 5C       		.byte	92
+ 836 0327 44       		.byte	68
+ 837 0328 5F       		.byte	95
+ 838 0329 01       		.byte	1
+ 839 032a 80       		.byte	-128
+ 840 032b 11       		.byte	17
+ 841 032c 82       		.byte	-126
+ 842 032d 06       		.byte	6
+ 843 032e 83       		.byte	-125
+ 844 032f 04       		.byte	4
+ 845 0330 85       		.byte	-123
+ 846 0331 02       		.byte	2
+ 847 0332 89       		.byte	-119
+ 848 0333 02       		.byte	2
+ 849 0334 8D       		.byte	-115
+ 850 0335 0C       		.byte	12
+ 851 0336 8E       		.byte	-114
+ 852 0337 0C       		.byte	12
+ 853 0338 90       		.byte	-112
+ 854 0339 11       		.byte	17
+ 855 033a 91       		.byte	-111
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 16
+
+
+ 856 033b 02       		.byte	2
+ 857 033c 92       		.byte	-110
+ 858 033d 0E       		.byte	14
+ 859 033e 94       		.byte	-108
+ 860 033f 0C       		.byte	12
+ 861 0340 95       		.byte	-107
+ 862 0341 01       		.byte	1
+ 863 0342 96       		.byte	-106
+ 864 0343 13       		.byte	19
+ 865 0344 99       		.byte	-103
+ 866 0345 08       		.byte	8
+ 867 0346 9A       		.byte	-102
+ 868 0347 08       		.byte	8
+ 869 0348 9C       		.byte	-100
+ 870 0349 20       		.byte	32
+ 871 034a 9D       		.byte	-99
+ 872 034b 0C       		.byte	12
+ 873 034c 9E       		.byte	-98
+ 874 034d 03       		.byte	3
+ 875 034e A1       		.byte	-95
+ 876 034f 01       		.byte	1
+ 877 0350 A5       		.byte	-91
+ 878 0351 01       		.byte	1
+ 879 0352 A9       		.byte	-87
+ 880 0353 01       		.byte	1
+ 881 0354 B0       		.byte	-80
+ 882 0355 30       		.byte	48
+ 883 0356 B1       		.byte	-79
+ 884 0357 01       		.byte	1
+ 885 0358 B2       		.byte	-78
+ 886 0359 0F       		.byte	15
+ 887 035a B3       		.byte	-77
+ 888 035b 0C       		.byte	12
+ 889 035c B7       		.byte	-73
+ 890 035d 02       		.byte	2
+ 891 035e B8       		.byte	-72
+ 892 035f 02       		.byte	2
+ 893 0360 B9       		.byte	-71
+ 894 0361 08       		.byte	8
+ 895 0362 BA       		.byte	-70
+ 896 0363 08       		.byte	8
+ 897 0364 BF       		.byte	-65
+ 898 0365 05       		.byte	5
+ 899 0366 C0       		.byte	-64
+ 900 0367 03       		.byte	3
+ 901 0368 C6       		.byte	-58
+ 902 0369 40       		.byte	64
+ 903 036a C9       		.byte	-55
+ 904 036b FF       		.byte	-1
+ 905 036c CA       		.byte	-54
+ 906 036d 07       		.byte	7
+ 907 036e CB       		.byte	-53
+ 908 036f FF       		.byte	-1
+ 909 0370 CC       		.byte	-52
+ 910 0371 40       		.byte	64
+ 911 0372 CD       		.byte	-51
+ 912 0373 20       		.byte	32
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 17
+
+
+ 913 0374 CE       		.byte	-50
+ 914 0375 F0       		.byte	-16
+ 915 0376 CF       		.byte	-49
+ 916 0377 05       		.byte	5
+ 917 0378 D0       		.byte	-48
+ 918 0379 08       		.byte	8
+ 919 037a D6       		.byte	-42
+ 920 037b 02       		.byte	2
+ 921 037c D7       		.byte	-41
+ 922 037d 13       		.byte	19
+ 923 037e D8       		.byte	-40
+ 924 037f 04       		.byte	4
+ 925 0380 D9       		.byte	-39
+ 926 0381 04       		.byte	4
+ 927 0382 DA       		.byte	-38
+ 928 0383 04       		.byte	4
+ 929 0384 DB       		.byte	-37
+ 930 0385 04       		.byte	4
+ 931 0386 DC       		.byte	-36
+ 932 0387 44       		.byte	68
+ 933 0388 DD       		.byte	-35
+ 934 0389 44       		.byte	68
+ 935 038a DF       		.byte	-33
+ 936 038b 01       		.byte	1
+ 937 038c E0       		.byte	-32
+ 938 038d 40       		.byte	64
+ 939 038e E1       		.byte	-31
+ 940 038f A8       		.byte	-88
+ 941 0390 E2       		.byte	-30
+ 942 0391 40       		.byte	64
+ 943 0392 E3       		.byte	-29
+ 944 0393 20       		.byte	32
+ 945 0394 03       		.byte	3
+ 946 0395 42       		.byte	66
+ 947 0396 05       		.byte	5
+ 948 0397 14       		.byte	20
+ 949 0398 07       		.byte	7
+ 950 0399 02       		.byte	2
+ 951 039a 09       		.byte	9
+ 952 039b 20       		.byte	32
+ 953 039c 0A       		.byte	10
+ 954 039d 60       		.byte	96
+ 955 039e 0B       		.byte	11
+ 956 039f 02       		.byte	2
+ 957 03a0 0E       		.byte	14
+ 958 03a1 15       		.byte	21
+ 959 03a2 0F       		.byte	15
+ 960 03a3 80       		.byte	-128
+ 961 03a4 17       		.byte	23
+ 962 03a5 08       		.byte	8
+ 963 03a6 1A       		.byte	26
+ 964 03a7 20       		.byte	32
+ 965 03a8 1B       		.byte	27
+ 966 03a9 07       		.byte	7
+ 967 03aa 1E       		.byte	30
+ 968 03ab 04       		.byte	4
+ 969 03ac 1F       		.byte	31
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 18
+
+
+ 970 03ad 20       		.byte	32
+ 971 03ae 21       		.byte	33
+ 972 03af 04       		.byte	4
+ 973 03b0 22       		.byte	34
+ 974 03b1 01       		.byte	1
+ 975 03b2 23       		.byte	35
+ 976 03b3 02       		.byte	2
+ 977 03b4 27       		.byte	39
+ 978 03b5 40       		.byte	64
+ 979 03b6 29       		.byte	41
+ 980 03b7 10       		.byte	16
+ 981 03b8 2B       		.byte	43
+ 982 03b9 E0       		.byte	-32
+ 983 03ba 31       		.byte	49
+ 984 03bb 04       		.byte	4
+ 985 03bc 32       		.byte	50
+ 986 03bd 10       		.byte	16
+ 987 03be 33       		.byte	51
+ 988 03bf 41       		.byte	65
+ 989 03c0 36       		.byte	54
+ 990 03c1 02       		.byte	2
+ 991 03c2 37       		.byte	55
+ 992 03c3 40       		.byte	64
+ 993 03c4 38       		.byte	56
+ 994 03c5 80       		.byte	-128
+ 995 03c6 39       		.byte	57
+ 996 03c7 14       		.byte	20
+ 997 03c8 3B       		.byte	59
+ 998 03c9 02       		.byte	2
+ 999 03ca 3C       		.byte	60
+ 1000 03cb 20       		.byte	32
+ 1001 03cc 3E       		.byte	62
+ 1002 03cd 40       		.byte	64
+ 1003 03ce 3F       		.byte	63
+ 1004 03cf 0A       		.byte	10
+ 1005 03d0 41       		.byte	65
+ 1006 03d1 04       		.byte	4
+ 1007 03d2 4B       		.byte	75
+ 1008 03d3 02       		.byte	2
+ 1009 03d4 51       		.byte	81
+ 1010 03d5 20       		.byte	32
+ 1011 03d6 5A       		.byte	90
+ 1012 03d7 02       		.byte	2
+ 1013 03d8 69       		.byte	105
+ 1014 03d9 14       		.byte	20
+ 1015 03da 6B       		.byte	107
+ 1016 03db 01       		.byte	1
+ 1017 03dc 72       		.byte	114
+ 1018 03dd 11       		.byte	17
+ 1019 03de 73       		.byte	115
+ 1020 03df 0C       		.byte	12
+ 1021 03e0 7E       		.byte	126
+ 1022 03e1 02       		.byte	2
+ 1023 03e2 7F       		.byte	127
+ 1024 03e3 01       		.byte	1
+ 1025 03e4 C0       		.byte	-64
+ 1026 03e5 E9       		.byte	-23
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 19
+
+
+ 1027 03e6 C2       		.byte	-62
+ 1028 03e7 FF       		.byte	-1
+ 1029 03e8 C4       		.byte	-60
+ 1030 03e9 20       		.byte	32
+ 1031 03ea CA       		.byte	-54
+ 1032 03eb 07       		.byte	7
+ 1033 03ec CC       		.byte	-52
+ 1034 03ed 9F       		.byte	-97
+ 1035 03ee CE       		.byte	-50
+ 1036 03ef FF       		.byte	-1
+ 1037 03f0 D0       		.byte	-48
+ 1038 03f1 02       		.byte	2
+ 1039 03f2 D6       		.byte	-42
+ 1040 03f3 01       		.byte	1
+ 1041 03f4 E4       		.byte	-28
+ 1042 03f5 40       		.byte	64
+ 1043 03f6 11       		.byte	17
+ 1044 03f7 01       		.byte	1
+ 1045 03f8 1C       		.byte	28
+ 1046 03f9 01       		.byte	1
+ 1047 03fa 1D       		.byte	29
+ 1048 03fb 01       		.byte	1
+ 1049 03fc 25       		.byte	37
+ 1050 03fd 01       		.byte	1
+ 1051 03fe 2C       		.byte	44
+ 1052 03ff 01       		.byte	1
+ 1053 0400 31       		.byte	49
+ 1054 0401 01       		.byte	1
+ 1055 0402 32       		.byte	50
+ 1056 0403 01       		.byte	1
+ 1057 0404 40       		.byte	64
+ 1058 0405 20       		.byte	32
+ 1059 0406 41       		.byte	65
+ 1060 0407 06       		.byte	6
+ 1061 0408 49       		.byte	73
+ 1062 0409 FF       		.byte	-1
+ 1063 040a 4A       		.byte	74
+ 1064 040b FF       		.byte	-1
+ 1065 040c 4B       		.byte	75
+ 1066 040d FF       		.byte	-1
+ 1067 040e 4D       		.byte	77
+ 1068 040f A0       		.byte	-96
+ 1069 0410 4F       		.byte	79
+ 1070 0411 04       		.byte	4
+ 1071 0412 50       		.byte	80
+ 1072 0413 18       		.byte	24
+ 1073 0414 52       		.byte	82
+ 1074 0415 80       		.byte	-128
+ 1075 0416 58       		.byte	88
+ 1076 0417 04       		.byte	4
+ 1077 0418 59       		.byte	89
+ 1078 0419 04       		.byte	4
+ 1079 041a 5A       		.byte	90
+ 1080 041b 04       		.byte	4
+ 1081 041c 5B       		.byte	91
+ 1082 041d 04       		.byte	4
+ 1083 041e 5C       		.byte	92
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 20
+
+
+ 1084 041f 22       		.byte	34
+ 1085 0420 5D       		.byte	93
+ 1086 0421 92       		.byte	-110
+ 1087 0422 5F       		.byte	95
+ 1088 0423 01       		.byte	1
+ 1089 0424 60       		.byte	96
+ 1090 0425 40       		.byte	64
+ 1091 0426 62       		.byte	98
+ 1092 0427 C0       		.byte	-64
+ 1093 0428 64       		.byte	100
+ 1094 0429 40       		.byte	64
+ 1095 042a 65       		.byte	101
+ 1096 042b 40       		.byte	64
+ 1097 042c 66       		.byte	102
+ 1098 042d C0       		.byte	-64
+ 1099 042e 68       		.byte	104
+ 1100 042f C0       		.byte	-64
+ 1101 0430 6A       		.byte	106
+ 1102 0431 C0       		.byte	-64
+ 1103 0432 6C       		.byte	108
+ 1104 0433 C0       		.byte	-64
+ 1105 0434 6E       		.byte	110
+ 1106 0435 C0       		.byte	-64
+ 1107 0436 85       		.byte	-123
+ 1108 0437 02       		.byte	2
+ 1109 0438 86       		.byte	-122
+ 1110 0439 02       		.byte	2
+ 1111 043a 89       		.byte	-119
+ 1112 043b 02       		.byte	2
+ 1113 043c 90       		.byte	-112
+ 1114 043d 02       		.byte	2
+ 1115 043e 93       		.byte	-109
+ 1116 043f 01       		.byte	1
+ 1117 0440 9C       		.byte	-100
+ 1118 0441 02       		.byte	2
+ 1119 0442 A7       		.byte	-89
+ 1120 0443 04       		.byte	4
+ 1121 0444 AB       		.byte	-85
+ 1122 0445 04       		.byte	4
+ 1123 0446 AE       		.byte	-82
+ 1124 0447 01       		.byte	1
+ 1125 0448 B2       		.byte	-78
+ 1126 0449 02       		.byte	2
+ 1127 044a B3       		.byte	-77
+ 1128 044b 01       		.byte	1
+ 1129 044c B4       		.byte	-76
+ 1130 044d 01       		.byte	1
+ 1131 044e B5       		.byte	-75
+ 1132 044f 04       		.byte	4
+ 1133 0450 B7       		.byte	-73
+ 1134 0451 02       		.byte	2
+ 1135 0452 BF       		.byte	-65
+ 1136 0453 10       		.byte	16
+ 1137 0454 C0       		.byte	-64
+ 1138 0455 20       		.byte	32
+ 1139 0456 C1       		.byte	-63
+ 1140 0457 06       		.byte	6
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 21
+
+
+ 1141 0458 C5       		.byte	-59
+ 1142 0459 D0       		.byte	-48
+ 1143 045a C6       		.byte	-58
+ 1144 045b 01       		.byte	1
+ 1145 045c C7       		.byte	-57
+ 1146 045d 02       		.byte	2
+ 1147 045e C8       		.byte	-56
+ 1148 045f 36       		.byte	54
+ 1149 0460 C9       		.byte	-55
+ 1150 0461 FF       		.byte	-1
+ 1151 0462 CA       		.byte	-54
+ 1152 0463 FF       		.byte	-1
+ 1153 0464 CB       		.byte	-53
+ 1154 0465 FF       		.byte	-1
+ 1155 0466 CD       		.byte	-51
+ 1156 0467 AF       		.byte	-81
+ 1157 0468 CE       		.byte	-50
+ 1158 0469 0F       		.byte	15
+ 1159 046a CF       		.byte	-49
+ 1160 046b 04       		.byte	4
+ 1161 046c D0       		.byte	-48
+ 1162 046d 18       		.byte	24
+ 1163 046e D2       		.byte	-46
+ 1164 046f 80       		.byte	-128
+ 1165 0470 D4       		.byte	-44
+ 1166 0471 05       		.byte	5
+ 1167 0472 D8       		.byte	-40
+ 1168 0473 04       		.byte	4
+ 1169 0474 D9       		.byte	-39
+ 1170 0475 04       		.byte	4
+ 1171 0476 DA       		.byte	-38
+ 1172 0477 04       		.byte	4
+ 1173 0478 DB       		.byte	-37
+ 1174 0479 04       		.byte	4
+ 1175 047a DC       		.byte	-36
+ 1176 047b 92       		.byte	-110
+ 1177 047c DD       		.byte	-35
+ 1178 047d 22       		.byte	34
+ 1179 047e DF       		.byte	-33
+ 1180 047f 01       		.byte	1
+ 1181 0480 E0       		.byte	-32
+ 1182 0481 40       		.byte	64
+ 1183 0482 E2       		.byte	-30
+ 1184 0483 C0       		.byte	-64
+ 1185 0484 E4       		.byte	-28
+ 1186 0485 40       		.byte	64
+ 1187 0486 E5       		.byte	-27
+ 1188 0487 40       		.byte	64
+ 1189 0488 E6       		.byte	-26
+ 1190 0489 C0       		.byte	-64
+ 1191 048a E8       		.byte	-24
+ 1192 048b C0       		.byte	-64
+ 1193 048c EA       		.byte	-22
+ 1194 048d C0       		.byte	-64
+ 1195 048e EC       		.byte	-20
+ 1196 048f C0       		.byte	-64
+ 1197 0490 EE       		.byte	-18
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 22
+
+
+ 1198 0491 C0       		.byte	-64
+ 1199 0492 04       		.byte	4
+ 1200 0493 04       		.byte	4
+ 1201 0494 09       		.byte	9
+ 1202 0495 40       		.byte	64
+ 1203 0496 0C       		.byte	12
+ 1204 0497 02       		.byte	2
+ 1205 0498 0D       		.byte	13
+ 1206 0499 80       		.byte	-128
+ 1207 049a 10       		.byte	16
+ 1208 049b 02       		.byte	2
+ 1209 049c 17       		.byte	23
+ 1210 049d 40       		.byte	64
+ 1211 049e 19       		.byte	25
+ 1212 049f 08       		.byte	8
+ 1213 04a0 1C       		.byte	28
+ 1214 04a1 04       		.byte	4
+ 1215 04a2 1D       		.byte	29
+ 1216 04a3 20       		.byte	32
+ 1217 04a4 1E       		.byte	30
+ 1218 04a5 20       		.byte	32
+ 1219 04a6 1F       		.byte	31
+ 1220 04a7 10       		.byte	16
+ 1221 04a8 23       		.byte	35
+ 1222 04a9 40       		.byte	64
+ 1223 04aa 25       		.byte	37
+ 1224 04ab 08       		.byte	8
+ 1225 04ac 26       		.byte	38
+ 1226 04ad 80       		.byte	-128
+ 1227 04ae 27       		.byte	39
+ 1228 04af 28       		.byte	40
+ 1229 04b0 29       		.byte	41
+ 1230 04b1 08       		.byte	8
+ 1231 04b2 2C       		.byte	44
+ 1232 04b3 08       		.byte	8
+ 1233 04b4 2F       		.byte	47
+ 1234 04b5 10       		.byte	16
+ 1235 04b6 30       		.byte	48
+ 1236 04b7 02       		.byte	2
+ 1237 04b8 31       		.byte	49
+ 1238 04b9 80       		.byte	-128
+ 1239 04ba 35       		.byte	53
+ 1240 04bb 01       		.byte	1
+ 1241 04bc 3E       		.byte	62
+ 1242 04bd 28       		.byte	40
+ 1243 04be 40       		.byte	64
+ 1244 04bf 04       		.byte	4
+ 1245 04c0 45       		.byte	69
+ 1246 04c1 20       		.byte	32
+ 1247 04c2 48       		.byte	72
+ 1248 04c3 08       		.byte	8
+ 1249 04c4 4C       		.byte	76
+ 1250 04c5 08       		.byte	8
+ 1251 04c6 4D       		.byte	77
+ 1252 04c7 01       		.byte	1
+ 1253 04c8 54       		.byte	84
+ 1254 04c9 0A       		.byte	10
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 23
+
+
+ 1255 04ca 55       		.byte	85
+ 1256 04cb C0       		.byte	-64
+ 1257 04cc 5D       		.byte	93
+ 1258 04cd 01       		.byte	1
+ 1259 04ce 5F       		.byte	95
+ 1260 04cf 48       		.byte	72
+ 1261 04d0 71       		.byte	113
+ 1262 04d1 01       		.byte	1
+ 1263 04d2 77       		.byte	119
+ 1264 04d3 40       		.byte	64
+ 1265 04d4 86       		.byte	-122
+ 1266 04d5 10       		.byte	16
+ 1267 04d6 9A       		.byte	-102
+ 1268 04d7 28       		.byte	40
+ 1269 04d8 9F       		.byte	-97
+ 1270 04d9 20       		.byte	32
+ 1271 04da A5       		.byte	-91
+ 1272 04db 08       		.byte	8
+ 1273 04dc A6       		.byte	-90
+ 1274 04dd 80       		.byte	-128
+ 1275 04de AD       		.byte	-83
+ 1276 04df 20       		.byte	32
+ 1277 04e0 B7       		.byte	-73
+ 1278 04e1 08       		.byte	8
+ 1279 04e2 C0       		.byte	-64
+ 1280 04e3 20       		.byte	32
+ 1281 04e4 C2       		.byte	-62
+ 1282 04e5 91       		.byte	-111
+ 1283 04e6 C4       		.byte	-60
+ 1284 04e7 81       		.byte	-127
+ 1285 04e8 CA       		.byte	-54
+ 1286 04e9 62       		.byte	98
+ 1287 04ea CC       		.byte	-52
+ 1288 04eb 89       		.byte	-119
+ 1289 04ec CE       		.byte	-50
+ 1290 04ed 60       		.byte	96
+ 1291 04ee D0       		.byte	-48
+ 1292 04ef 24       		.byte	36
+ 1293 04f0 D2       		.byte	-46
+ 1294 04f1 24       		.byte	36
+ 1295 04f2 D6       		.byte	-42
+ 1296 04f3 D0       		.byte	-48
+ 1297 04f4 E0       		.byte	-32
+ 1298 04f5 08       		.byte	8
+ 1299 04f6 E6       		.byte	-26
+ 1300 04f7 02       		.byte	2
+ 1301 04f8 EA       		.byte	-22
+ 1302 04f9 11       		.byte	17
+ 1303 04fa EC       		.byte	-20
+ 1304 04fb 10       		.byte	16
+ 1305 04fc EE       		.byte	-18
+ 1306 04fd 02       		.byte	2
+ 1307 04fe 05       		.byte	5
+ 1308 04ff 01       		.byte	1
+ 1309 0500 09       		.byte	9
+ 1310 0501 01       		.byte	1
+ 1311 0502 18       		.byte	24
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 24
+
+
+ 1312 0503 01       		.byte	1
+ 1313 0504 1D       		.byte	29
+ 1314 0505 01       		.byte	1
+ 1315 0506 26       		.byte	38
+ 1316 0507 01       		.byte	1
+ 1317 0508 28       		.byte	40
+ 1318 0509 01       		.byte	1
+ 1319 050a 31       		.byte	49
+ 1320 050b 01       		.byte	1
+ 1321 050c 32       		.byte	50
+ 1322 050d 01       		.byte	1
+ 1323 050e 40       		.byte	64
+ 1324 050f 30       		.byte	48
+ 1325 0510 41       		.byte	65
+ 1326 0511 06       		.byte	6
+ 1327 0512 49       		.byte	73
+ 1328 0513 FF       		.byte	-1
+ 1329 0514 4A       		.byte	74
+ 1330 0515 FF       		.byte	-1
+ 1331 0516 4B       		.byte	75
+ 1332 0517 FF       		.byte	-1
+ 1333 0518 4D       		.byte	77
+ 1334 0519 A0       		.byte	-96
+ 1335 051a 4F       		.byte	79
+ 1336 051b 04       		.byte	4
+ 1337 051c 50       		.byte	80
+ 1338 051d 18       		.byte	24
+ 1339 051e 58       		.byte	88
+ 1340 051f 04       		.byte	4
+ 1341 0520 59       		.byte	89
+ 1342 0521 04       		.byte	4
+ 1343 0522 5A       		.byte	90
+ 1344 0523 04       		.byte	4
+ 1345 0524 5C       		.byte	92
+ 1346 0525 93       		.byte	-109
+ 1347 0526 5D       		.byte	93
+ 1348 0527 03       		.byte	3
+ 1349 0528 5F       		.byte	95
+ 1350 0529 01       		.byte	1
+ 1351 052a 60       		.byte	96
+ 1352 052b 40       		.byte	64
+ 1353 052c 62       		.byte	98
+ 1354 052d C0       		.byte	-64
+ 1355 052e 64       		.byte	100
+ 1356 052f 40       		.byte	64
+ 1357 0530 65       		.byte	101
+ 1358 0531 40       		.byte	64
+ 1359 0532 66       		.byte	102
+ 1360 0533 C0       		.byte	-64
+ 1361 0534 68       		.byte	104
+ 1362 0535 C0       		.byte	-64
+ 1363 0536 6A       		.byte	106
+ 1364 0537 C0       		.byte	-64
+ 1365 0538 6C       		.byte	108
+ 1366 0539 C0       		.byte	-64
+ 1367 053a 6E       		.byte	110
+ 1368 053b C0       		.byte	-64
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 25
+
+
+ 1369 053c 86       		.byte	-122
+ 1370 053d 01       		.byte	1
+ 1371 053e 89       		.byte	-119
+ 1372 053f 01       		.byte	1
+ 1373 0540 8A       		.byte	-118
+ 1374 0541 01       		.byte	1
+ 1375 0542 92       		.byte	-110
+ 1376 0543 01       		.byte	1
+ 1377 0544 93       		.byte	-109
+ 1378 0545 02       		.byte	2
+ 1379 0546 94       		.byte	-108
+ 1380 0547 04       		.byte	4
+ 1381 0548 99       		.byte	-103
+ 1382 0549 01       		.byte	1
+ 1383 054a 9A       		.byte	-102
+ 1384 054b 02       		.byte	2
+ 1385 054c 9C       		.byte	-100
+ 1386 054d 01       		.byte	1
+ 1387 054e A2       		.byte	-94
+ 1388 054f 01       		.byte	1
+ 1389 0550 A4       		.byte	-92
+ 1390 0551 04       		.byte	4
+ 1391 0552 AA       		.byte	-86
+ 1392 0553 02       		.byte	2
+ 1393 0554 AD       		.byte	-83
+ 1394 0555 01       		.byte	1
+ 1395 0556 B0       		.byte	-80
+ 1396 0557 01       		.byte	1
+ 1397 0558 B1       		.byte	-79
+ 1398 0559 01       		.byte	1
+ 1399 055a B4       		.byte	-76
+ 1400 055b 02       		.byte	2
+ 1401 055c B5       		.byte	-75
+ 1402 055d 02       		.byte	2
+ 1403 055e B6       		.byte	-74
+ 1404 055f 04       		.byte	4
+ 1405 0560 BE       		.byte	-66
+ 1406 0561 11       		.byte	17
+ 1407 0562 C0       		.byte	-64
+ 1408 0563 20       		.byte	32
+ 1409 0564 C1       		.byte	-63
+ 1410 0565 06       		.byte	6
+ 1411 0566 C5       		.byte	-59
+ 1412 0567 D1       		.byte	-47
+ 1413 0568 C7       		.byte	-57
+ 1414 0569 02       		.byte	2
+ 1415 056a C8       		.byte	-56
+ 1416 056b 1B       		.byte	27
+ 1417 056c C9       		.byte	-55
+ 1418 056d FF       		.byte	-1
+ 1419 056e CA       		.byte	-54
+ 1420 056f FF       		.byte	-1
+ 1421 0570 CB       		.byte	-53
+ 1422 0571 FF       		.byte	-1
+ 1423 0572 CD       		.byte	-51
+ 1424 0573 AF       		.byte	-81
+ 1425 0574 CE       		.byte	-50
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 26
+
+
+ 1426 0575 0F       		.byte	15
+ 1427 0576 CF       		.byte	-49
+ 1428 0577 04       		.byte	4
+ 1429 0578 D0       		.byte	-48
+ 1430 0579 18       		.byte	24
+ 1431 057a D2       		.byte	-46
+ 1432 057b 80       		.byte	-128
+ 1433 057c D4       		.byte	-44
+ 1434 057d 05       		.byte	5
+ 1435 057e D8       		.byte	-40
+ 1436 057f 04       		.byte	4
+ 1437 0580 D9       		.byte	-39
+ 1438 0581 04       		.byte	4
+ 1439 0582 DA       		.byte	-38
+ 1440 0583 04       		.byte	4
+ 1441 0584 DB       		.byte	-37
+ 1442 0585 04       		.byte	4
+ 1443 0586 DC       		.byte	-36
+ 1444 0587 33       		.byte	51
+ 1445 0588 DD       		.byte	-35
+ 1446 0589 33       		.byte	51
+ 1447 058a DF       		.byte	-33
+ 1448 058b 01       		.byte	1
+ 1449 058c E0       		.byte	-32
+ 1450 058d 40       		.byte	64
+ 1451 058e E2       		.byte	-30
+ 1452 058f C0       		.byte	-64
+ 1453 0590 E4       		.byte	-28
+ 1454 0591 40       		.byte	64
+ 1455 0592 E5       		.byte	-27
+ 1456 0593 40       		.byte	64
+ 1457 0594 E6       		.byte	-26
+ 1458 0595 C0       		.byte	-64
+ 1459 0596 E8       		.byte	-24
+ 1460 0597 C0       		.byte	-64
+ 1461 0598 EA       		.byte	-22
+ 1462 0599 C0       		.byte	-64
+ 1463 059a EC       		.byte	-20
+ 1464 059b C0       		.byte	-64
+ 1465 059c EE       		.byte	-18
+ 1466 059d C0       		.byte	-64
+ 1467 059e 00       		.byte	0
+ 1468 059f 04       		.byte	4
+ 1469 05a0 01       		.byte	1
+ 1470 05a1 20       		.byte	32
+ 1471 05a2 08       		.byte	8
+ 1472 05a3 40       		.byte	64
+ 1473 05a4 09       		.byte	9
+ 1474 05a5 20       		.byte	32
+ 1475 05a6 0A       		.byte	10
+ 1476 05a7 40       		.byte	64
+ 1477 05a8 0B       		.byte	11
+ 1478 05a9 20       		.byte	32
+ 1479 05aa 0C       		.byte	12
+ 1480 05ab 20       		.byte	32
+ 1481 05ac 10       		.byte	16
+ 1482 05ad A0       		.byte	-96
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 27
+
+
+ 1483 05ae 12       		.byte	18
+ 1484 05af 08       		.byte	8
+ 1485 05b0 15       		.byte	21
+ 1486 05b1 20       		.byte	32
+ 1487 05b2 17       		.byte	23
+ 1488 05b3 08       		.byte	8
+ 1489 05b4 19       		.byte	25
+ 1490 05b5 42       		.byte	66
+ 1491 05b6 1A       		.byte	26
+ 1492 05b7 04       		.byte	4
+ 1493 05b8 1F       		.byte	31
+ 1494 05b9 08       		.byte	8
+ 1495 05ba 21       		.byte	33
+ 1496 05bb 20       		.byte	32
+ 1497 05bc 23       		.byte	35
+ 1498 05bd 88       		.byte	-120
+ 1499 05be 24       		.byte	36
+ 1500 05bf 40       		.byte	64
+ 1501 05c0 29       		.byte	41
+ 1502 05c1 40       		.byte	64
+ 1503 05c2 30       		.byte	48
+ 1504 05c3 20       		.byte	32
+ 1505 05c4 31       		.byte	49
+ 1506 05c5 02       		.byte	2
+ 1507 05c6 36       		.byte	54
+ 1508 05c7 80       		.byte	-128
+ 1509 05c8 3B       		.byte	59
+ 1510 05c9 20       		.byte	32
+ 1511 05ca 3E       		.byte	62
+ 1512 05cb 28       		.byte	40
+ 1513 05cc 41       		.byte	65
+ 1514 05cd 20       		.byte	32
+ 1515 05ce 47       		.byte	71
+ 1516 05cf 08       		.byte	8
+ 1517 05d0 48       		.byte	72
+ 1518 05d1 20       		.byte	32
+ 1519 05d2 49       		.byte	73
+ 1520 05d3 01       		.byte	1
+ 1521 05d4 4A       		.byte	74
+ 1522 05d5 08       		.byte	8
+ 1523 05d6 4E       		.byte	78
+ 1524 05d7 08       		.byte	8
+ 1525 05d8 51       		.byte	81
+ 1526 05d9 10       		.byte	16
+ 1527 05da 52       		.byte	82
+ 1528 05db 08       		.byte	8
+ 1529 05dc 53       		.byte	83
+ 1530 05dd 10       		.byte	16
+ 1531 05de 59       		.byte	89
+ 1532 05df 01       		.byte	1
+ 1533 05e0 5A       		.byte	90
+ 1534 05e1 04       		.byte	4
+ 1535 05e2 5B       		.byte	91
+ 1536 05e3 80       		.byte	-128
+ 1537 05e4 71       		.byte	113
+ 1538 05e5 02       		.byte	2
+ 1539 05e6 84       		.byte	-124
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 28
+
+
+ 1540 05e7 40       		.byte	64
+ 1541 05e8 90       		.byte	-112
+ 1542 05e9 04       		.byte	4
+ 1543 05ea 92       		.byte	-110
+ 1544 05eb 40       		.byte	64
+ 1545 05ec 94       		.byte	-108
+ 1546 05ed 40       		.byte	64
+ 1547 05ee 9A       		.byte	-102
+ 1548 05ef 28       		.byte	40
+ 1549 05f0 9C       		.byte	-100
+ 1550 05f1 40       		.byte	64
+ 1551 05f2 9D       		.byte	-99
+ 1552 05f3 22       		.byte	34
+ 1553 05f4 9F       		.byte	-97
+ 1554 05f5 20       		.byte	32
+ 1555 05f6 A0       		.byte	-96
+ 1556 05f7 80       		.byte	-128
+ 1557 05f8 A5       		.byte	-91
+ 1558 05f9 08       		.byte	8
+ 1559 05fa AC       		.byte	-84
+ 1560 05fb 08       		.byte	8
+ 1561 05fc AD       		.byte	-83
+ 1562 05fd 02       		.byte	2
+ 1563 05fe C0       		.byte	-64
+ 1564 05ff 06       		.byte	6
+ 1565 0600 C2       		.byte	-62
+ 1566 0601 4F       		.byte	79
+ 1567 0602 C4       		.byte	-60
+ 1568 0603 6E       		.byte	110
+ 1569 0604 CA       		.byte	-54
+ 1570 0605 08       		.byte	8
+ 1571 0606 CC       		.byte	-52
+ 1572 0607 15       		.byte	21
+ 1573 0608 CE       		.byte	-50
+ 1574 0609 64       		.byte	100
+ 1575 060a D0       		.byte	-48
+ 1576 060b 44       		.byte	68
+ 1577 060c D2       		.byte	-46
+ 1578 060d 24       		.byte	36
+ 1579 060e D6       		.byte	-42
+ 1580 060f 0B       		.byte	11
+ 1581 0610 E2       		.byte	-30
+ 1582 0611 08       		.byte	8
+ 1583 0612 E4       		.byte	-28
+ 1584 0613 09       		.byte	9
+ 1585 0614 E6       		.byte	-26
+ 1586 0615 80       		.byte	-128
+ 1587 0616 06       		.byte	6
+ 1588 0617 01       		.byte	1
+ 1589 0618 07       		.byte	7
+ 1590 0619 01       		.byte	1
+ 1591 061a 0B       		.byte	11
+ 1592 061b 01       		.byte	1
+ 1593 061c 13       		.byte	19
+ 1594 061d 01       		.byte	1
+ 1595 061e 1D       		.byte	29
+ 1596 061f 01       		.byte	1
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 29
+
+
+ 1597 0620 24       		.byte	36
+ 1598 0621 02       		.byte	2
+ 1599 0622 2D       		.byte	45
+ 1600 0623 01       		.byte	1
+ 1601 0624 32       		.byte	50
+ 1602 0625 01       		.byte	1
+ 1603 0626 34       		.byte	52
+ 1604 0627 02       		.byte	2
+ 1605 0628 37       		.byte	55
+ 1606 0629 01       		.byte	1
+ 1607 062a 3E       		.byte	62
+ 1608 062b 10       		.byte	16
+ 1609 062c 3F       		.byte	63
+ 1610 062d 40       		.byte	64
+ 1611 062e 40       		.byte	64
+ 1612 062f 34       		.byte	52
+ 1613 0630 41       		.byte	65
+ 1614 0631 05       		.byte	5
+ 1615 0632 42       		.byte	66
+ 1616 0633 02       		.byte	2
+ 1617 0634 44       		.byte	68
+ 1618 0635 06       		.byte	6
+ 1619 0636 45       		.byte	69
+ 1620 0637 E0       		.byte	-32
+ 1621 0638 46       		.byte	70
+ 1622 0639 0C       		.byte	12
+ 1623 063a 48       		.byte	72
+ 1624 063b 06       		.byte	6
+ 1625 063c 49       		.byte	73
+ 1626 063d FF       		.byte	-1
+ 1627 063e 4A       		.byte	74
+ 1628 063f FF       		.byte	-1
+ 1629 0640 4B       		.byte	75
+ 1630 0641 FF       		.byte	-1
+ 1631 0642 4C       		.byte	76
+ 1632 0643 62       		.byte	98
+ 1633 0644 4D       		.byte	77
+ 1634 0645 A0       		.byte	-96
+ 1635 0646 4E       		.byte	78
+ 1636 0647 F0       		.byte	-16
+ 1637 0648 4F       		.byte	79
+ 1638 0649 41       		.byte	65
+ 1639 064a 50       		.byte	80
+ 1640 064b 0C       		.byte	12
+ 1641 064c 54       		.byte	84
+ 1642 064d 01       		.byte	1
+ 1643 064e 58       		.byte	88
+ 1644 064f 04       		.byte	4
+ 1645 0650 59       		.byte	89
+ 1646 0651 04       		.byte	4
+ 1647 0652 5A       		.byte	90
+ 1648 0653 04       		.byte	4
+ 1649 0654 5B       		.byte	91
+ 1650 0655 04       		.byte	4
+ 1651 0656 5C       		.byte	92
+ 1652 0657 01       		.byte	1
+ 1653 0658 5D       		.byte	93
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 30
+
+
+ 1654 0659 44       		.byte	68
+ 1655 065a 5F       		.byte	95
+ 1656 065b 01       		.byte	1
+ 1657 065c 66       		.byte	102
+ 1658 065d 40       		.byte	64
+ 1659 065e 67       		.byte	103
+ 1660 065f 02       		.byte	2
+ 1661 0660 69       		.byte	105
+ 1662 0661 10       		.byte	16
+ 1663 0662 6A       		.byte	106
+ 1664 0663 30       		.byte	48
+ 1665 0664 6B       		.byte	107
+ 1666 0665 10       		.byte	16
+ 1667 0666 6D       		.byte	109
+ 1668 0667 10       		.byte	16
+ 1669 0668 6E       		.byte	110
+ 1670 0669 10       		.byte	16
+ 1671 066a 6F       		.byte	111
+ 1672 066b 12       		.byte	18
+ 1673 066c 80       		.byte	-128
+ 1674 066d 40       		.byte	64
+ 1675 066e 82       		.byte	-126
+ 1676 066f 30       		.byte	48
+ 1677 0670 84       		.byte	-124
+ 1678 0671 06       		.byte	6
+ 1679 0672 85       		.byte	-123
+ 1680 0673 14       		.byte	20
+ 1681 0674 86       		.byte	-122
+ 1682 0675 01       		.byte	1
+ 1683 0676 8E       		.byte	-114
+ 1684 0677 01       		.byte	1
+ 1685 0678 91       		.byte	-111
+ 1686 0679 20       		.byte	32
+ 1687 067a 92       		.byte	-110
+ 1688 067b 03       		.byte	3
+ 1689 067c 93       		.byte	-109
+ 1690 067d 03       		.byte	3
+ 1691 067e 94       		.byte	-108
+ 1692 067f 80       		.byte	-128
+ 1693 0680 96       		.byte	-106
+ 1694 0681 30       		.byte	48
+ 1695 0682 9A       		.byte	-102
+ 1696 0683 02       		.byte	2
+ 1697 0684 9C       		.byte	-100
+ 1698 0685 20       		.byte	32
+ 1699 0686 9D       		.byte	-99
+ 1700 0687 10       		.byte	16
+ 1701 0688 9E       		.byte	-98
+ 1702 0689 C8       		.byte	-56
+ 1703 068a 9F       		.byte	-97
+ 1704 068b 0C       		.byte	12
+ 1705 068c A1       		.byte	-95
+ 1706 068d 0C       		.byte	12
+ 1707 068e A2       		.byte	-94
+ 1708 068f 06       		.byte	6
+ 1709 0690 A3       		.byte	-93
+ 1710 0691 11       		.byte	17
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 31
+
+
+ 1711 0692 A4       		.byte	-92
+ 1712 0693 E0       		.byte	-32
+ 1713 0694 A5       		.byte	-91
+ 1714 0695 10       		.byte	16
+ 1715 0696 A8       		.byte	-88
+ 1716 0697 E0       		.byte	-32
+ 1717 0698 A9       		.byte	-87
+ 1718 0699 1C       		.byte	28
+ 1719 069a AB       		.byte	-85
+ 1720 069b 02       		.byte	2
+ 1721 069c AD       		.byte	-83
+ 1722 069d 09       		.byte	9
+ 1723 069e AE       		.byte	-82
+ 1724 069f 05       		.byte	5
+ 1725 06a0 AF       		.byte	-81
+ 1726 06a1 10       		.byte	16
+ 1727 06a2 B0       		.byte	-80
+ 1728 06a3 07       		.byte	7
+ 1729 06a4 B1       		.byte	-79
+ 1730 06a5 1F       		.byte	31
+ 1731 06a6 B4       		.byte	-76
+ 1732 06a7 18       		.byte	24
+ 1733 06a8 B6       		.byte	-74
+ 1734 06a9 E0       		.byte	-32
+ 1735 06aa B7       		.byte	-73
+ 1736 06ab 20       		.byte	32
+ 1737 06ac BA       		.byte	-70
+ 1738 06ad 02       		.byte	2
+ 1739 06ae BE       		.byte	-66
+ 1740 06af 10       		.byte	16
+ 1741 06b0 BF       		.byte	-65
+ 1742 06b1 40       		.byte	64
+ 1743 06b2 C0       		.byte	-64
+ 1744 06b3 15       		.byte	21
+ 1745 06b4 C1       		.byte	-63
+ 1746 06b5 04       		.byte	4
+ 1747 06b6 C5       		.byte	-59
+ 1748 06b7 0C       		.byte	12
+ 1749 06b8 C6       		.byte	-58
+ 1750 06b9 E0       		.byte	-32
+ 1751 06ba C7       		.byte	-57
+ 1752 06bb 0B       		.byte	11
+ 1753 06bc C8       		.byte	-56
+ 1754 06bd 19       		.byte	25
+ 1755 06be C9       		.byte	-55
+ 1756 06bf FF       		.byte	-1
+ 1757 06c0 CA       		.byte	-54
+ 1758 06c1 FF       		.byte	-1
+ 1759 06c2 CB       		.byte	-53
+ 1760 06c3 FF       		.byte	-1
+ 1761 06c4 CE       		.byte	-50
+ 1762 06c5 F0       		.byte	-16
+ 1763 06c6 CF       		.byte	-49
+ 1764 06c7 44       		.byte	68
+ 1765 06c8 D0       		.byte	-48
+ 1766 06c9 0C       		.byte	12
+ 1767 06ca D8       		.byte	-40
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 32
+
+
+ 1768 06cb 04       		.byte	4
+ 1769 06cc D9       		.byte	-39
+ 1770 06cd 04       		.byte	4
+ 1771 06ce DA       		.byte	-38
+ 1772 06cf 04       		.byte	4
+ 1773 06d0 DC       		.byte	-36
+ 1774 06d1 44       		.byte	68
+ 1775 06d2 DD       		.byte	-35
+ 1776 06d3 04       		.byte	4
+ 1777 06d4 DF       		.byte	-33
+ 1778 06d5 01       		.byte	1
+ 1779 06d6 E6       		.byte	-26
+ 1780 06d7 C0       		.byte	-64
+ 1781 06d8 EA       		.byte	-22
+ 1782 06d9 40       		.byte	64
+ 1783 06da EB       		.byte	-21
+ 1784 06db 02       		.byte	2
+ 1785 06dc 00       		.byte	0
+ 1786 06dd 0A       		.byte	10
+ 1787 06de 02       		.byte	2
+ 1788 06df 02       		.byte	2
+ 1789 06e0 05       		.byte	5
+ 1790 06e1 08       		.byte	8
+ 1791 06e2 08       		.byte	8
+ 1792 06e3 10       		.byte	16
+ 1793 06e4 09       		.byte	9
+ 1794 06e5 28       		.byte	40
+ 1795 06e6 0A       		.byte	10
+ 1796 06e7 42       		.byte	66
+ 1797 06e8 11       		.byte	17
+ 1798 06e9 14       		.byte	20
+ 1799 06ea 12       		.byte	18
+ 1800 06eb 40       		.byte	64
+ 1801 06ec 13       		.byte	19
+ 1802 06ed 80       		.byte	-128
+ 1803 06ee 16       		.byte	22
+ 1804 06ef 10       		.byte	16
+ 1805 06f0 18       		.byte	24
+ 1806 06f1 80       		.byte	-128
+ 1807 06f2 19       		.byte	25
+ 1808 06f3 01       		.byte	1
+ 1809 06f4 1A       		.byte	26
+ 1810 06f5 42       		.byte	66
+ 1811 06f6 1B       		.byte	27
+ 1812 06f7 10       		.byte	16
+ 1813 06f8 1E       		.byte	30
+ 1814 06f9 04       		.byte	4
+ 1815 06fa 1F       		.byte	31
+ 1816 06fb 08       		.byte	8
+ 1817 06fc 21       		.byte	33
+ 1818 06fd 02       		.byte	2
+ 1819 06fe 22       		.byte	34
+ 1820 06ff 40       		.byte	64
+ 1821 0700 26       		.byte	38
+ 1822 0701 40       		.byte	64
+ 1823 0702 28       		.byte	40
+ 1824 0703 10       		.byte	16
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 33
+
+
+ 1825 0704 29       		.byte	41
+ 1826 0705 01       		.byte	1
+ 1827 0706 2A       		.byte	42
+ 1828 0707 40       		.byte	64
+ 1829 0708 2B       		.byte	43
+ 1830 0709 05       		.byte	5
+ 1831 070a 2E       		.byte	46
+ 1832 070b 40       		.byte	64
+ 1833 070c 31       		.byte	49
+ 1834 070d 02       		.byte	2
+ 1835 070e 33       		.byte	51
+ 1836 070f 40       		.byte	64
+ 1837 0710 34       		.byte	52
+ 1838 0711 20       		.byte	32
+ 1839 0712 35       		.byte	53
+ 1840 0713 10       		.byte	16
+ 1841 0714 36       		.byte	54
+ 1842 0715 02       		.byte	2
+ 1843 0716 37       		.byte	55
+ 1844 0717 C0       		.byte	-64
+ 1845 0718 38       		.byte	56
+ 1846 0719 08       		.byte	8
+ 1847 071a 3C       		.byte	60
+ 1848 071b 28       		.byte	40
+ 1849 071c 3F       		.byte	63
+ 1850 071d 08       		.byte	8
+ 1851 071e 42       		.byte	66
+ 1852 071f 40       		.byte	64
+ 1853 0720 43       		.byte	67
+ 1854 0721 40       		.byte	64
+ 1855 0722 44       		.byte	68
+ 1856 0723 20       		.byte	32
+ 1857 0724 47       		.byte	71
+ 1858 0725 22       		.byte	34
+ 1859 0726 48       		.byte	72
+ 1860 0727 10       		.byte	16
+ 1861 0728 4A       		.byte	74
+ 1862 0729 12       		.byte	18
+ 1863 072a 4C       		.byte	76
+ 1864 072b 80       		.byte	-128
+ 1865 072c 4D       		.byte	77
+ 1866 072d 40       		.byte	64
+ 1867 072e 4F       		.byte	79
+ 1868 072f 20       		.byte	32
+ 1869 0730 50       		.byte	80
+ 1870 0731 04       		.byte	4
+ 1871 0732 52       		.byte	82
+ 1872 0733 30       		.byte	48
+ 1873 0734 55       		.byte	85
+ 1874 0735 40       		.byte	64
+ 1875 0736 5C       		.byte	92
+ 1876 0737 02       		.byte	2
+ 1877 0738 5E       		.byte	94
+ 1878 0739 A4       		.byte	-92
+ 1879 073a 85       		.byte	-123
+ 1880 073b 08       		.byte	8
+ 1881 073c 88       		.byte	-120
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 34
+
+
+ 1882 073d 02       		.byte	2
+ 1883 073e 8A       		.byte	-118
+ 1884 073f 20       		.byte	32
+ 1885 0740 91       		.byte	-111
+ 1886 0741 14       		.byte	20
+ 1887 0742 92       		.byte	-110
+ 1888 0743 11       		.byte	17
+ 1889 0744 93       		.byte	-109
+ 1890 0745 04       		.byte	4
+ 1891 0746 94       		.byte	-108
+ 1892 0747 80       		.byte	-128
+ 1893 0748 96       		.byte	-106
+ 1894 0749 40       		.byte	64
+ 1895 074a 9B       		.byte	-101
+ 1896 074b 42       		.byte	66
+ 1897 074c 9D       		.byte	-99
+ 1898 074d 14       		.byte	20
+ 1899 074e A1       		.byte	-95
+ 1900 074f 20       		.byte	32
+ 1901 0750 A2       		.byte	-94
+ 1902 0751 02       		.byte	2
+ 1903 0752 A3       		.byte	-93
+ 1904 0753 25       		.byte	37
+ 1905 0754 A4       		.byte	-92
+ 1906 0755 10       		.byte	16
+ 1907 0756 A7       		.byte	-89
+ 1908 0757 80       		.byte	-128
+ 1909 0758 C0       		.byte	-64
+ 1910 0759 2D       		.byte	45
+ 1911 075a C2       		.byte	-62
+ 1912 075b 0F       		.byte	15
+ 1913 075c C4       		.byte	-60
+ 1914 075d 2F       		.byte	47
+ 1915 075e CA       		.byte	-54
+ 1916 075f 1F       		.byte	31
+ 1917 0760 CC       		.byte	-52
+ 1918 0761 99       		.byte	-103
+ 1919 0762 CE       		.byte	-50
+ 1920 0763 62       		.byte	98
+ 1921 0764 D0       		.byte	-48
+ 1922 0765 E9       		.byte	-23
+ 1923 0766 D2       		.byte	-46
+ 1924 0767 38       		.byte	56
+ 1925 0768 D6       		.byte	-42
+ 1926 0769 F0       		.byte	-16
+ 1927 076a E2       		.byte	-30
+ 1928 076b 08       		.byte	8
+ 1929 076c E4       		.byte	-28
+ 1930 076d 01       		.byte	1
+ 1931 076e E6       		.byte	-26
+ 1932 076f 80       		.byte	-128
+ 1933 0770 00       		.byte	0
+ 1934 0771 24       		.byte	36
+ 1935 0772 04       		.byte	4
+ 1936 0773 7C       		.byte	124
+ 1937 0774 05       		.byte	5
+ 1938 0775 03       		.byte	3
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 35
+
+
+ 1939 0776 06       		.byte	6
+ 1940 0777 01       		.byte	1
+ 1941 0778 08       		.byte	8
+ 1942 0779 1C       		.byte	28
+ 1943 077a 09       		.byte	9
+ 1944 077b 03       		.byte	3
+ 1945 077c 0A       		.byte	10
+ 1946 077d 62       		.byte	98
+ 1947 077e 0E       		.byte	14
+ 1948 077f 04       		.byte	4
+ 1949 0780 10       		.byte	16
+ 1950 0781 7F       		.byte	127
+ 1951 0782 11       		.byte	17
+ 1952 0783 0C       		.byte	12
+ 1953 0784 14       		.byte	20
+ 1954 0785 40       		.byte	64
+ 1955 0786 15       		.byte	21
+ 1956 0787 0A       		.byte	10
+ 1957 0788 17       		.byte	23
+ 1958 0789 01       		.byte	1
+ 1959 078a 18       		.byte	24
+ 1960 078b 67       		.byte	103
+ 1961 078c 1A       		.byte	26
+ 1962 078d 18       		.byte	24
+ 1963 078e 1B       		.byte	27
+ 1964 078f 0C       		.byte	12
+ 1965 0790 1C       		.byte	28
+ 1966 0791 60       		.byte	96
+ 1967 0792 1D       		.byte	29
+ 1968 0793 0C       		.byte	12
+ 1969 0794 20       		.byte	32
+ 1970 0795 10       		.byte	16
+ 1971 0796 21       		.byte	33
+ 1972 0797 05       		.byte	5
+ 1973 0798 23       		.byte	35
+ 1974 0799 12       		.byte	18
+ 1975 079a 24       		.byte	36
+ 1976 079b 08       		.byte	8
+ 1977 079c 27       		.byte	39
+ 1978 079d 0C       		.byte	12
+ 1979 079e 28       		.byte	40
+ 1980 079f 18       		.byte	24
+ 1981 07a0 29       		.byte	41
+ 1982 07a1 0C       		.byte	12
+ 1983 07a2 2E       		.byte	46
+ 1984 07a3 63       		.byte	99
+ 1985 07a4 2F       		.byte	47
+ 1986 07a5 0C       		.byte	12
+ 1987 07a6 31       		.byte	49
+ 1988 07a7 10       		.byte	16
+ 1989 07a8 32       		.byte	50
+ 1990 07a9 1F       		.byte	31
+ 1991 07aa 33       		.byte	51
+ 1992 07ab 03       		.byte	3
+ 1993 07ac 34       		.byte	52
+ 1994 07ad 78       		.byte	120
+ 1995 07ae 37       		.byte	55
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 36
+
+
+ 1996 07af 0C       		.byte	12
+ 1997 07b0 3A       		.byte	58
+ 1998 07b1 28       		.byte	40
+ 1999 07b2 58       		.byte	88
+ 2000 07b3 04       		.byte	4
+ 2001 07b4 59       		.byte	89
+ 2002 07b5 04       		.byte	4
+ 2003 07b6 5C       		.byte	92
+ 2004 07b7 44       		.byte	68
+ 2005 07b8 5F       		.byte	95
+ 2006 07b9 01       		.byte	1
+ 2007 07ba 81       		.byte	-127
+ 2008 07bb 04       		.byte	4
+ 2009 07bc 85       		.byte	-123
+ 2010 07bd 02       		.byte	2
+ 2011 07be 89       		.byte	-119
+ 2012 07bf 11       		.byte	17
+ 2013 07c0 8A       		.byte	-118
+ 2014 07c1 01       		.byte	1
+ 2015 07c2 8B       		.byte	-117
+ 2016 07c3 06       		.byte	6
+ 2017 07c4 8F       		.byte	-113
+ 2018 07c5 08       		.byte	8
+ 2019 07c6 93       		.byte	-109
+ 2020 07c7 01       		.byte	1
+ 2021 07c8 95       		.byte	-107
+ 2022 07c9 07       		.byte	7
+ 2023 07ca 97       		.byte	-105
+ 2024 07cb 10       		.byte	16
+ 2025 07cc 9B       		.byte	-101
+ 2026 07cd 08       		.byte	8
+ 2027 07ce 9E       		.byte	-98
+ 2028 07cf 01       		.byte	1
+ 2029 07d0 A1       		.byte	-95
+ 2030 07d1 17       		.byte	23
+ 2031 07d2 A5       		.byte	-91
+ 2032 07d3 06       		.byte	6
+ 2033 07d4 A7       		.byte	-89
+ 2034 07d5 11       		.byte	17
+ 2035 07d6 A9       		.byte	-87
+ 2036 07d7 06       		.byte	6
+ 2037 07d8 B2       		.byte	-78
+ 2038 07d9 01       		.byte	1
+ 2039 07da B3       		.byte	-77
+ 2040 07db 07       		.byte	7
+ 2041 07dc B5       		.byte	-75
+ 2042 07dd 10       		.byte	16
+ 2043 07de B7       		.byte	-73
+ 2044 07df 08       		.byte	8
+ 2045 07e0 B9       		.byte	-71
+ 2046 07e1 20       		.byte	32
+ 2047 07e2 BA       		.byte	-70
+ 2048 07e3 80       		.byte	-128
+ 2049 07e4 BE       		.byte	-66
+ 2050 07e5 04       		.byte	4
+ 2051 07e6 BF       		.byte	-65
+ 2052 07e7 40       		.byte	64
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 37
+
+
+ 2053 07e8 D4       		.byte	-44
+ 2054 07e9 18       		.byte	24
+ 2055 07ea D6       		.byte	-42
+ 2056 07eb 04       		.byte	4
+ 2057 07ec D8       		.byte	-40
+ 2058 07ed 04       		.byte	4
+ 2059 07ee D9       		.byte	-39
+ 2060 07ef 04       		.byte	4
+ 2061 07f0 DB       		.byte	-37
+ 2062 07f1 04       		.byte	4
+ 2063 07f2 DC       		.byte	-36
+ 2064 07f3 44       		.byte	68
+ 2065 07f4 DD       		.byte	-35
+ 2066 07f5 40       		.byte	64
+ 2067 07f6 DF       		.byte	-33
+ 2068 07f7 01       		.byte	1
+ 2069 07f8 00       		.byte	0
+ 2070 07f9 42       		.byte	66
+ 2071 07fa 03       		.byte	3
+ 2072 07fb 28       		.byte	40
+ 2073 07fc 07       		.byte	7
+ 2074 07fd 08       		.byte	8
+ 2075 07fe 09       		.byte	9
+ 2076 07ff 08       		.byte	8
+ 2077 0800 0A       		.byte	10
+ 2078 0801 06       		.byte	6
+ 2079 0802 0B       		.byte	11
+ 2080 0803 80       		.byte	-128
+ 2081 0804 0C       		.byte	12
+ 2082 0805 80       		.byte	-128
+ 2083 0806 10       		.byte	16
+ 2084 0807 09       		.byte	9
+ 2085 0808 11       		.byte	17
+ 2086 0809 01       		.byte	1
+ 2087 080a 13       		.byte	19
+ 2088 080b 04       		.byte	4
+ 2089 080c 19       		.byte	25
+ 2090 080d 14       		.byte	20
+ 2091 080e 1A       		.byte	26
+ 2092 080f 24       		.byte	36
+ 2093 0810 1B       		.byte	27
+ 2094 0811 18       		.byte	24
+ 2095 0812 1F       		.byte	31
+ 2096 0813 C4       		.byte	-60
+ 2097 0814 20       		.byte	32
+ 2098 0815 40       		.byte	64
+ 2099 0816 21       		.byte	33
+ 2100 0817 08       		.byte	8
+ 2101 0818 23       		.byte	35
+ 2102 0819 01       		.byte	1
+ 2103 081a 27       		.byte	39
+ 2104 081b 29       		.byte	41
+ 2105 081c 28       		.byte	40
+ 2106 081d 01       		.byte	1
+ 2107 081e 29       		.byte	41
+ 2108 081f 10       		.byte	16
+ 2109 0820 2A       		.byte	42
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 38
+
+
+ 2110 0821 02       		.byte	2
+ 2111 0822 2B       		.byte	43
+ 2112 0823 20       		.byte	32
+ 2113 0824 2C       		.byte	44
+ 2114 0825 08       		.byte	8
+ 2115 0826 2E       		.byte	46
+ 2116 0827 10       		.byte	16
+ 2117 0828 2F       		.byte	47
+ 2118 0829 A0       		.byte	-96
+ 2119 082a 31       		.byte	49
+ 2120 082b 08       		.byte	8
+ 2121 082c 32       		.byte	50
+ 2122 082d 11       		.byte	17
+ 2123 082e 33       		.byte	51
+ 2124 082f 80       		.byte	-128
+ 2125 0830 34       		.byte	52
+ 2126 0831 01       		.byte	1
+ 2127 0832 35       		.byte	53
+ 2128 0833 04       		.byte	4
+ 2129 0834 37       		.byte	55
+ 2130 0835 22       		.byte	34
+ 2131 0836 39       		.byte	57
+ 2132 0837 14       		.byte	20
+ 2133 0838 3D       		.byte	61
+ 2134 0839 81       		.byte	-127
+ 2135 083a 3E       		.byte	62
+ 2136 083b 01       		.byte	1
+ 2137 083c 3F       		.byte	63
+ 2138 083d 24       		.byte	36
+ 2139 083e 46       		.byte	70
+ 2140 083f 80       		.byte	-128
+ 2141 0840 47       		.byte	71
+ 2142 0841 01       		.byte	1
+ 2143 0842 5F       		.byte	95
+ 2144 0843 01       		.byte	1
+ 2145 0844 66       		.byte	102
+ 2146 0845 80       		.byte	-128
+ 2147 0846 67       		.byte	103
+ 2148 0847 48       		.byte	72
+ 2149 0848 87       		.byte	-121
+ 2150 0849 40       		.byte	64
+ 2151 084a 88       		.byte	-120
+ 2152 084b 01       		.byte	1
+ 2153 084c 8A       		.byte	-118
+ 2154 084d 02       		.byte	2
+ 2155 084e 8E       		.byte	-114
+ 2156 084f 40       		.byte	64
+ 2157 0850 91       		.byte	-111
+ 2158 0851 14       		.byte	20
+ 2159 0852 92       		.byte	-110
+ 2160 0853 93       		.byte	-109
+ 2161 0854 93       		.byte	-109
+ 2162 0855 04       		.byte	4
+ 2163 0856 9B       		.byte	-101
+ 2164 0857 02       		.byte	2
+ 2165 0858 9D       		.byte	-99
+ 2166 0859 14       		.byte	20
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 39
+
+
+ 2167 085a 9F       		.byte	-97
+ 2168 085b 20       		.byte	32
+ 2169 085c A0       		.byte	-96
+ 2170 085d 80       		.byte	-128
+ 2171 085e A1       		.byte	-95
+ 2172 085f 40       		.byte	64
+ 2173 0860 A3       		.byte	-93
+ 2174 0861 20       		.byte	32
+ 2175 0862 A4       		.byte	-92
+ 2176 0863 01       		.byte	1
+ 2177 0864 A5       		.byte	-91
+ 2178 0865 08       		.byte	8
+ 2179 0866 A7       		.byte	-89
+ 2180 0867 80       		.byte	-128
+ 2181 0868 AF       		.byte	-81
+ 2182 0869 08       		.byte	8
+ 2183 086a B5       		.byte	-75
+ 2184 086b 40       		.byte	64
+ 2185 086c B7       		.byte	-73
+ 2186 086d 80       		.byte	-128
+ 2187 086e C0       		.byte	-64
+ 2188 086f 4F       		.byte	79
+ 2189 0870 C2       		.byte	-62
+ 2190 0871 8F       		.byte	-113
+ 2191 0872 C4       		.byte	-60
+ 2192 0873 0F       		.byte	15
+ 2193 0874 CA       		.byte	-54
+ 2194 0875 EF       		.byte	-17
+ 2195 0876 CC       		.byte	-52
+ 2196 0877 EF       		.byte	-17
+ 2197 0878 CE       		.byte	-50
+ 2198 0879 F6       		.byte	-10
+ 2199 087a D6       		.byte	-42
+ 2200 087b 80       		.byte	-128
+ 2201 087c D8       		.byte	-40
+ 2202 087d B0       		.byte	-80
+ 2203 087e E0       		.byte	-32
+ 2204 087f 08       		.byte	8
+ 2205 0880 EA       		.byte	-22
+ 2206 0881 01       		.byte	1
+ 2207 0882 EC       		.byte	-20
+ 2208 0883 10       		.byte	16
+ 2209 0884 32       		.byte	50
+ 2210 0885 80       		.byte	-128
+ 2211 0886 33       		.byte	51
+ 2212 0887 04       		.byte	4
+ 2213 0888 34       		.byte	52
+ 2214 0889 10       		.byte	16
+ 2215 088a 37       		.byte	55
+ 2216 088b 02       		.byte	2
+ 2217 088c CC       		.byte	-52
+ 2218 088d F0       		.byte	-16
+ 2219 088e 0E       		.byte	14
+ 2220 088f 20       		.byte	32
+ 2221 0890 9C       		.byte	-100
+ 2222 0891 10       		.byte	16
+ 2223 0892 9F       		.byte	-97
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 40
+
+
+ 2224 0893 06       		.byte	6
+ 2225 0894 A6       		.byte	-90
+ 2226 0895 80       		.byte	-128
+ 2227 0896 C2       		.byte	-62
+ 2228 0897 20       		.byte	32
+ 2229 0898 3E       		.byte	62
+ 2230 0899 10       		.byte	16
+ 2231 089a 53       		.byte	83
+ 2232 089b 20       		.byte	32
+ 2233 089c 87       		.byte	-121
+ 2234 089d 02       		.byte	2
+ 2235 089e 9C       		.byte	-100
+ 2236 089f 10       		.byte	16
+ 2237 08a0 9F       		.byte	-97
+ 2238 08a1 06       		.byte	6
+ 2239 08a2 A2       		.byte	-94
+ 2240 08a3 10       		.byte	16
+ 2241 08a4 A6       		.byte	-90
+ 2242 08a5 80       		.byte	-128
+ 2243 08a6 CE       		.byte	-50
+ 2244 08a7 20       		.byte	32
+ 2245 08a8 D4       		.byte	-44
+ 2246 08a9 20       		.byte	32
+ 2247 08aa E6       		.byte	-26
+ 2248 08ab 40       		.byte	64
+ 2249 08ac 96       		.byte	-106
+ 2250 08ad 10       		.byte	16
+ 2251 08ae 9C       		.byte	-100
+ 2252 08af 10       		.byte	16
+ 2253 08b0 9F       		.byte	-97
+ 2254 08b1 04       		.byte	4
+ 2255 08b2 A2       		.byte	-94
+ 2256 08b3 10       		.byte	16
+ 2257 08b4 A6       		.byte	-90
+ 2258 08b5 80       		.byte	-128
+ 2259 08b6 AF       		.byte	-81
+ 2260 08b7 20       		.byte	32
+ 2261 08b8 EE       		.byte	-18
+ 2262 08b9 10       		.byte	16
+ 2263 08ba 7D       		.byte	125
+ 2264 08bb 08       		.byte	8
+ 2265 08bc 8D       		.byte	-115
+ 2266 08bd 04       		.byte	4
+ 2267 08be DE       		.byte	-34
+ 2268 08bf 01       		.byte	1
+ 2269 08c0 E4       		.byte	-28
+ 2270 08c1 02       		.byte	2
+ 2271 08c2 45       		.byte	69
+ 2272 08c3 08       		.byte	8
+ 2273 08c4 D0       		.byte	-48
+ 2274 08c5 01       		.byte	1
+ 2275 08c6 A5       		.byte	-91
+ 2276 08c7 08       		.byte	8
+ 2277 08c8 25       		.byte	37
+ 2278 08c9 10       		.byte	16
+ 2279 08ca 57       		.byte	87
+ 2280 08cb 01       		.byte	1
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 41
+
+
+ 2281 08cc 5A       		.byte	90
+ 2282 08cd 80       		.byte	-128
+ 2283 08ce 81       		.byte	-127
+ 2284 08cf 01       		.byte	1
+ 2285 08d0 86       		.byte	-122
+ 2286 08d1 30       		.byte	48
+ 2287 08d2 8B       		.byte	-117
+ 2288 08d3 02       		.byte	2
+ 2289 08d4 96       		.byte	-106
+ 2290 08d5 10       		.byte	16
+ 2291 08d6 9C       		.byte	-100
+ 2292 08d7 10       		.byte	16
+ 2293 08d8 9F       		.byte	-97
+ 2294 08d9 04       		.byte	4
+ 2295 08da A2       		.byte	-94
+ 2296 08db 10       		.byte	16
+ 2297 08dc A6       		.byte	-90
+ 2298 08dd 80       		.byte	-128
+ 2299 08de C8       		.byte	-56
+ 2300 08df 20       		.byte	32
+ 2301 08e0 D4       		.byte	-44
+ 2302 08e1 80       		.byte	-128
+ 2303 08e2 D6       		.byte	-42
+ 2304 08e3 20       		.byte	32
+ 2305 08e4 E2       		.byte	-30
+ 2306 08e5 10       		.byte	16
+ 2307 08e6 E4       		.byte	-28
+ 2308 08e7 90       		.byte	-112
+ 2309 08e8 11       		.byte	17
+ 2310 08e9 02       		.byte	2
+ 2311 08ea 16       		.byte	22
+ 2312 08eb 40       		.byte	64
+ 2313 08ec 22       		.byte	34
+ 2314 08ed 80       		.byte	-128
+ 2315 08ee 27       		.byte	39
+ 2316 08ef 04       		.byte	4
+ 2317 08f0 72       		.byte	114
+ 2318 08f1 20       		.byte	32
+ 2319 08f2 7F       		.byte	127
+ 2320 08f3 02       		.byte	2
+ 2321 08f4 84       		.byte	-124
+ 2322 08f5 10       		.byte	16
+ 2323 08f6 86       		.byte	-122
+ 2324 08f7 40       		.byte	64
+ 2325 08f8 87       		.byte	-121
+ 2326 08f9 01       		.byte	1
+ 2327 08fa 9A       		.byte	-102
+ 2328 08fb 20       		.byte	32
+ 2329 08fc 9C       		.byte	-100
+ 2330 08fd 10       		.byte	16
+ 2331 08fe 9F       		.byte	-97
+ 2332 08ff 04       		.byte	4
+ 2333 0900 A3       		.byte	-93
+ 2334 0901 02       		.byte	2
+ 2335 0902 A5       		.byte	-91
+ 2336 0903 01       		.byte	1
+ 2337 0904 A6       		.byte	-90
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 42
+
+
+ 2338 0905 80       		.byte	-128
+ 2339 0906 A7       		.byte	-89
+ 2340 0907 01       		.byte	1
+ 2341 0908 AA       		.byte	-86
+ 2342 0909 10       		.byte	16
+ 2343 090a B5       		.byte	-75
+ 2344 090b 10       		.byte	16
+ 2345 090c B6       		.byte	-74
+ 2346 090d 40       		.byte	64
+ 2347 090e C4       		.byte	-60
+ 2348 090f 30       		.byte	48
+ 2349 0910 C8       		.byte	-56
+ 2350 0911 30       		.byte	48
+ 2351 0912 DC       		.byte	-36
+ 2352 0913 80       		.byte	-128
+ 2353 0914 DE       		.byte	-34
+ 2354 0915 20       		.byte	32
+ 2355 0916 E0       		.byte	-32
+ 2356 0917 10       		.byte	16
+ 2357 0918 E6       		.byte	-26
+ 2358 0919 50       		.byte	80
+ 2359 091a EA       		.byte	-22
+ 2360 091b 80       		.byte	-128
+ 2361 091c 11       		.byte	17
+ 2362 091d 01       		.byte	1
+ 2363 091e 13       		.byte	19
+ 2364 091f 20       		.byte	32
+ 2365 0920 17       		.byte	23
+ 2366 0921 08       		.byte	8
+ 2367 0922 7B       		.byte	123
+ 2368 0923 08       		.byte	8
+ 2369 0924 7F       		.byte	127
+ 2370 0925 40       		.byte	64
+ 2371 0926 83       		.byte	-125
+ 2372 0927 08       		.byte	8
+ 2373 0928 85       		.byte	-123
+ 2374 0929 01       		.byte	1
+ 2375 092a 8B       		.byte	-117
+ 2376 092b 08       		.byte	8
+ 2377 092c A5       		.byte	-91
+ 2378 092d 08       		.byte	8
+ 2379 092e C4       		.byte	-60
+ 2380 092f 0E       		.byte	14
+ 2381 0930 DE       		.byte	-34
+ 2382 0931 03       		.byte	3
+ 2383 0932 E6       		.byte	-26
+ 2384 0933 01       		.byte	1
+ 2385 0934 10       		.byte	16
+ 2386 0935 40       		.byte	64
+ 2387 0936 7A       		.byte	122
+ 2388 0937 01       		.byte	1
+ 2389 0938 87       		.byte	-121
+ 2390 0939 40       		.byte	64
+ 2391 093a 88       		.byte	-120
+ 2392 093b 40       		.byte	64
+ 2393 093c 8E       		.byte	-114
+ 2394 093d 01       		.byte	1
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 43
+
+
+ 2395 093e 97       		.byte	-105
+ 2396 093f 80       		.byte	-128
+ 2397 0940 AB       		.byte	-85
+ 2398 0941 20       		.byte	32
+ 2399 0942 B5       		.byte	-75
+ 2400 0943 08       		.byte	8
+ 2401 0944 C4       		.byte	-60
+ 2402 0945 08       		.byte	8
+ 2403 0946 DC       		.byte	-36
+ 2404 0947 01       		.byte	1
+ 2405 0948 E0       		.byte	-32
+ 2406 0949 08       		.byte	8
+ 2407 094a E2       		.byte	-30
+ 2408 094b 01       		.byte	1
+ 2409 094c EC       		.byte	-20
+ 2410 094d 08       		.byte	8
+ 2411 094e 00       		.byte	0
+ 2412 094f 12       		.byte	18
+ 2413 0950 01       		.byte	1
+ 2414 0951 01       		.byte	1
+ 2415 0952 0A       		.byte	10
+ 2416 0953 02       		.byte	2
+ 2417 0954 0B       		.byte	11
+ 2418 0955 01       		.byte	1
+ 2419 0956 0C       		.byte	12
+ 2420 0957 10       		.byte	16
+ 2421 0958 10       		.byte	16
+ 2422 0959 1E       		.byte	30
+ 2423 095a 11       		.byte	17
+ 2424 095b 01       		.byte	1
+ 2425 095c 1A       		.byte	26
+ 2426 095d 0C       		.byte	12
+ 2427 095e 1B       		.byte	27
+ 2428 095f 01       		.byte	1
+ 2429 0960 1C       		.byte	28
+ 2430 0961 12       		.byte	18
+ 2431 0962 00       		.byte	0
+ 2432 0963 FF       		.byte	-1
+ 2433 0964 03       		.byte	3
+ 2434 0965 C0       		.byte	-64
+ 2435 0966 00       		.byte	0
+ 2436 0967 00       		.byte	0
+ 2437 0968 02       		.byte	2
+ 2438 0969 84       		.byte	-124
+ 2439 096a 00       		.byte	0
+ 2440 096b 00       		.byte	0
+ 2441 096c 43       		.byte	67
+ 2442 096d 00       		.byte	0
+ 2443 096e 00       		.byte	0
+ 2444 096f 00       		.byte	0
+ 2445 0970 20       		.byte	32
+ 2446 0971 C0       		.byte	-64
+ 2447 0972 C0       		.byte	-64
+ 2448 0973 00       		.byte	0
+ 2449 0974 00       		.byte	0
+ 2450 0975 00       		.byte	0
+ 2451 0976 03       		.byte	3
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 44
+
+
+ 2452 0977 00       		.byte	0
+ 2453 0978 83       		.byte	-125
+ 2454 0979 00       		.byte	0
+ 2455 097a 40       		.byte	64
+ 2456 097b 84       		.byte	-124
+ 2457 097c 87       		.byte	-121
+ 2458 097d 00       		.byte	0
+ 2459 097e 87       		.byte	-121
+ 2460 097f 00       		.byte	0
+ 2461 0980 00       		.byte	0
+ 2462 0981 00       		.byte	0
+ 2463 0982 00       		.byte	0
+ 2464 0983 00       		.byte	0
+ 2465 0984 00       		.byte	0
+ 2466 0985 03       		.byte	3
+ 2467 0986 03       		.byte	3
+ 2468 0987 00       		.byte	0
+ 2469 0988 03       		.byte	3
+ 2470 0989 00       		.byte	0
+ 2471 098a 00       		.byte	0
+ 2472 098b 00       		.byte	0
+ 2473 098c 00       		.byte	0
+ 2474 098d 0B       		.byte	11
+ 2475 098e 0B       		.byte	11
+ 2476 098f 00       		.byte	0
+ 2477 0990 00       		.byte	0
+ 2478 0991 00       		.byte	0
+ 2479 0992 00       		.byte	0
+ 2480 0993 00       		.byte	0
+ 2481 0994 00       		.byte	0
+ 2482 0995 00       		.byte	0
+ 2483 0996 00       		.byte	0
+ 2484 0997 00       		.byte	0
+ 2485 0998 00       		.byte	0
+ 2486 0999 00       		.byte	0
+ 2487 099a 04       		.byte	4
+ 2488 099b 00       		.byte	0
+ 2489 099c 0A       		.byte	10
+ 2490 099d 00       		.byte	0
+ 2491 099e 18       		.byte	24
+ 2492 099f 01       		.byte	1
+ 2493              		.section	.cywolatch,"a",%progbits
+ 2494              		.align	2
+ 2495              		.type	cy_meta_wonvl, %object
+ 2496              		.size	cy_meta_wonvl, 4
+ 2497              	cy_meta_wonvl:
+ 2498 0000 BC       		.byte	-68
+ 2499 0001 90       		.byte	-112
+ 2500 0002 AC       		.byte	-84
+ 2501 0003 AF       		.byte	-81
+ 2502              		.section	.cycustnvl,"a",%progbits
+ 2503              		.align	2
+ 2504              		.type	cy_meta_custnvl, %object
+ 2505              		.size	cy_meta_custnvl, 4
+ 2506              	cy_meta_custnvl:
+ 2507 0000 00       		.byte	0
+ 2508 0001 00       		.byte	0
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 45
+
+
+ 2509 0002 40       		.byte	64
+ 2510 0003 05       		.byte	5
+ 2511              		.section	.cymeta,"a",%progbits
+ 2512              		.align	2
+ 2513              		.type	cy_metadata, %object
+ 2514              		.size	cy_metadata, 12
+ 2515              	cy_metadata:
+ 2516 0000 00       		.byte	0
+ 2517 0001 01       		.byte	1
+ 2518 0002 2E       		.byte	46
+ 2519 0003 16       		.byte	22
+ 2520 0004 10       		.byte	16
+ 2521 0005 69       		.byte	105
+ 2522 0006 00       		.byte	0
+ 2523 0007 01       		.byte	1
+ 2524 0008 00       		.byte	0
+ 2525 0009 00       		.byte	0
+ 2526 000a 00       		.byte	0
+ 2527 000b 00       		.byte	0
+ 2528              		.section	.cyflashprotect,"a",%progbits
+ 2529              		.align	2
+ 2530              		.type	cy_meta_flashprotect, %object
+ 2531              		.size	cy_meta_flashprotect, 256
+ 2532              	cy_meta_flashprotect:
+ 2533 0000 00000000 		.space	256
+ 2533      00000000 
+ 2533      00000000 
+ 2533      00000000 
+ 2533      00000000 
+ 2534              		.text
+ 2535              	.Letext0:
+ 2536              		.file 1 "d:\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.1\\arm-none-eabi\\inc
+ 2537              		.file 2 "d:\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.1\\arm-none-eabi\\inc
+ 2538              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 2539              		.section	.debug_info,"",%progbits
+ 2540              	.Ldebug_info0:
+ 2541 0000 35010000 		.4byte	0x135
+ 2542 0004 0400     		.2byte	0x4
+ 2543 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 2544 000a 04       		.byte	0x4
+ 2545 000b 01       		.uleb128 0x1
+ 2546 000c A7000000 		.4byte	.LASF17
+ 2547 0010 0C       		.byte	0xc
+ 2548 0011 01020000 		.4byte	.LASF18
+ 2549 0015 16000000 		.4byte	.LASF19
+ 2550 0019 00000000 		.4byte	.Ldebug_line0
+ 2551 001d 02       		.uleb128 0x2
+ 2552 001e 01       		.byte	0x1
+ 2553 001f 06       		.byte	0x6
+ 2554 0020 F5010000 		.4byte	.LASF0
+ 2555 0024 03       		.uleb128 0x3
+ 2556 0025 00000000 		.4byte	.LASF9
+ 2557 0029 01       		.byte	0x1
+ 2558 002a 1D       		.byte	0x1d
+ 2559 002b 2F000000 		.4byte	0x2f
+ 2560 002f 02       		.uleb128 0x2
+ 2561 0030 01       		.byte	0x1
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 46
+
+
+ 2562 0031 08       		.byte	0x8
+ 2563 0032 99000000 		.4byte	.LASF1
+ 2564 0036 02       		.uleb128 0x2
+ 2565 0037 02       		.byte	0x2
+ 2566 0038 05       		.byte	0x5
+ 2567 0039 E2010000 		.4byte	.LASF2
+ 2568 003d 02       		.uleb128 0x2
+ 2569 003e 02       		.byte	0x2
+ 2570 003f 07       		.byte	0x7
+ 2571 0040 47010000 		.4byte	.LASF3
+ 2572 0044 02       		.uleb128 0x2
+ 2573 0045 04       		.byte	0x4
+ 2574 0046 05       		.byte	0x5
+ 2575 0047 EC010000 		.4byte	.LASF4
+ 2576 004b 02       		.uleb128 0x2
+ 2577 004c 04       		.byte	0x4
+ 2578 004d 07       		.byte	0x7
+ 2579 004e 35010000 		.4byte	.LASF5
+ 2580 0052 02       		.uleb128 0x2
+ 2581 0053 08       		.byte	0x8
+ 2582 0054 05       		.byte	0x5
+ 2583 0055 D4010000 		.4byte	.LASF6
+ 2584 0059 02       		.uleb128 0x2
+ 2585 005a 08       		.byte	0x8
+ 2586 005b 07       		.byte	0x7
+ 2587 005c 89010000 		.4byte	.LASF7
+ 2588 0060 04       		.uleb128 0x4
+ 2589 0061 04       		.byte	0x4
+ 2590 0062 05       		.byte	0x5
+ 2591 0063 696E7400 		.ascii	"int\000"
+ 2592 0067 02       		.uleb128 0x2
+ 2593 0068 04       		.byte	0x4
+ 2594 0069 07       		.byte	0x7
+ 2595 006a 7C010000 		.4byte	.LASF8
+ 2596 006e 03       		.uleb128 0x3
+ 2597 006f A0010000 		.4byte	.LASF10
+ 2598 0073 02       		.byte	0x2
+ 2599 0074 18       		.byte	0x18
+ 2600 0075 24000000 		.4byte	0x24
+ 2601 0079 05       		.uleb128 0x5
+ 2602 007a 91000000 		.4byte	0x91
+ 2603 007e 8A000000 		.4byte	0x8a
+ 2604 0082 06       		.uleb128 0x6
+ 2605 0083 8A000000 		.4byte	0x8a
+ 2606 0087 9F09     		.2byte	0x99f
+ 2607 0089 00       		.byte	0
+ 2608 008a 02       		.uleb128 0x2
+ 2609 008b 04       		.byte	0x4
+ 2610 008c 07       		.byte	0x7
+ 2611 008d CB010000 		.4byte	.LASF11
+ 2612 0091 07       		.uleb128 0x7
+ 2613 0092 6E000000 		.4byte	0x6e
+ 2614 0096 08       		.uleb128 0x8
+ 2615 0097 6A010000 		.4byte	.LASF12
+ 2616 009b 03       		.byte	0x3
+ 2617 009c 1F       		.byte	0x1f
+ 2618 009d A7000000 		.4byte	0xa7
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 47
+
+
+ 2619 00a1 05       		.uleb128 0x5
+ 2620 00a2 03       		.byte	0x3
+ 2621 00a3 00000000 		.4byte	cy_meta_configecc
+ 2622 00a7 07       		.uleb128 0x7
+ 2623 00a8 79000000 		.4byte	0x79
+ 2624 00ac 05       		.uleb128 0x5
+ 2625 00ad 91000000 		.4byte	0x91
+ 2626 00b1 BC000000 		.4byte	0xbc
+ 2627 00b5 09       		.uleb128 0x9
+ 2628 00b6 8A000000 		.4byte	0x8a
+ 2629 00ba 03       		.byte	0x3
+ 2630 00bb 00       		.byte	0
+ 2631 00bc 0A       		.uleb128 0xa
+ 2632 00bd 5A010000 		.4byte	.LASF13
+ 2633 00c1 03       		.byte	0x3
+ 2634 00c2 6001     		.2byte	0x160
+ 2635 00c4 CE000000 		.4byte	0xce
+ 2636 00c8 05       		.uleb128 0x5
+ 2637 00c9 03       		.byte	0x3
+ 2638 00ca 00000000 		.4byte	cy_meta_custnvl
+ 2639 00ce 07       		.uleb128 0x7
+ 2640 00cf AC000000 		.4byte	0xac
+ 2641 00d3 0A       		.uleb128 0xa
+ 2642 00d4 BD010000 		.4byte	.LASF14
+ 2643 00d8 03       		.byte	0x3
+ 2644 00d9 6E01     		.2byte	0x16e
+ 2645 00db E5000000 		.4byte	0xe5
+ 2646 00df 05       		.uleb128 0x5
+ 2647 00e0 03       		.byte	0x3
+ 2648 00e1 00000000 		.4byte	cy_meta_wonvl
+ 2649 00e5 07       		.uleb128 0x7
+ 2650 00e6 AC000000 		.4byte	0xac
+ 2651 00ea 05       		.uleb128 0x5
+ 2652 00eb 91000000 		.4byte	0x91
+ 2653 00ef FA000000 		.4byte	0xfa
+ 2654 00f3 09       		.uleb128 0x9
+ 2655 00f4 8A000000 		.4byte	0x8a
+ 2656 00f8 FF       		.byte	0xff
+ 2657 00f9 00       		.byte	0
+ 2658 00fa 0A       		.uleb128 0xa
+ 2659 00fb A8010000 		.4byte	.LASF15
+ 2660 00ff 03       		.byte	0x3
+ 2661 0100 7C01     		.2byte	0x17c
+ 2662 0102 0C010000 		.4byte	0x10c
+ 2663 0106 05       		.uleb128 0x5
+ 2664 0107 03       		.byte	0x3
+ 2665 0108 00000000 		.4byte	cy_meta_flashprotect
+ 2666 010c 07       		.uleb128 0x7
+ 2667 010d EA000000 		.4byte	0xea
+ 2668 0111 05       		.uleb128 0x5
+ 2669 0112 91000000 		.4byte	0x91
+ 2670 0116 21010000 		.4byte	0x121
+ 2671 011a 09       		.uleb128 0x9
+ 2672 011b 8A000000 		.4byte	0x8a
+ 2673 011f 0B       		.byte	0xb
+ 2674 0120 00       		.byte	0
+ 2675 0121 0A       		.uleb128 0xa
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 48
+
+
+ 2676 0122 0A000000 		.4byte	.LASF16
+ 2677 0126 03       		.byte	0x3
+ 2678 0127 A901     		.2byte	0x1a9
+ 2679 0129 33010000 		.4byte	0x133
+ 2680 012d 05       		.uleb128 0x5
+ 2681 012e 03       		.byte	0x3
+ 2682 012f 00000000 		.4byte	cy_metadata
+ 2683 0133 07       		.uleb128 0x7
+ 2684 0134 11010000 		.4byte	0x111
+ 2685 0138 00       		.byte	0
+ 2686              		.section	.debug_abbrev,"",%progbits
+ 2687              	.Ldebug_abbrev0:
+ 2688 0000 01       		.uleb128 0x1
+ 2689 0001 11       		.uleb128 0x11
+ 2690 0002 01       		.byte	0x1
+ 2691 0003 25       		.uleb128 0x25
+ 2692 0004 0E       		.uleb128 0xe
+ 2693 0005 13       		.uleb128 0x13
+ 2694 0006 0B       		.uleb128 0xb
+ 2695 0007 03       		.uleb128 0x3
+ 2696 0008 0E       		.uleb128 0xe
+ 2697 0009 1B       		.uleb128 0x1b
+ 2698 000a 0E       		.uleb128 0xe
+ 2699 000b 10       		.uleb128 0x10
+ 2700 000c 17       		.uleb128 0x17
+ 2701 000d 00       		.byte	0
+ 2702 000e 00       		.byte	0
+ 2703 000f 02       		.uleb128 0x2
+ 2704 0010 24       		.uleb128 0x24
+ 2705 0011 00       		.byte	0
+ 2706 0012 0B       		.uleb128 0xb
+ 2707 0013 0B       		.uleb128 0xb
+ 2708 0014 3E       		.uleb128 0x3e
+ 2709 0015 0B       		.uleb128 0xb
+ 2710 0016 03       		.uleb128 0x3
+ 2711 0017 0E       		.uleb128 0xe
+ 2712 0018 00       		.byte	0
+ 2713 0019 00       		.byte	0
+ 2714 001a 03       		.uleb128 0x3
+ 2715 001b 16       		.uleb128 0x16
+ 2716 001c 00       		.byte	0
+ 2717 001d 03       		.uleb128 0x3
+ 2718 001e 0E       		.uleb128 0xe
+ 2719 001f 3A       		.uleb128 0x3a
+ 2720 0020 0B       		.uleb128 0xb
+ 2721 0021 3B       		.uleb128 0x3b
+ 2722 0022 0B       		.uleb128 0xb
+ 2723 0023 49       		.uleb128 0x49
+ 2724 0024 13       		.uleb128 0x13
+ 2725 0025 00       		.byte	0
+ 2726 0026 00       		.byte	0
+ 2727 0027 04       		.uleb128 0x4
+ 2728 0028 24       		.uleb128 0x24
+ 2729 0029 00       		.byte	0
+ 2730 002a 0B       		.uleb128 0xb
+ 2731 002b 0B       		.uleb128 0xb
+ 2732 002c 3E       		.uleb128 0x3e
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 49
+
+
+ 2733 002d 0B       		.uleb128 0xb
+ 2734 002e 03       		.uleb128 0x3
+ 2735 002f 08       		.uleb128 0x8
+ 2736 0030 00       		.byte	0
+ 2737 0031 00       		.byte	0
+ 2738 0032 05       		.uleb128 0x5
+ 2739 0033 01       		.uleb128 0x1
+ 2740 0034 01       		.byte	0x1
+ 2741 0035 49       		.uleb128 0x49
+ 2742 0036 13       		.uleb128 0x13
+ 2743 0037 01       		.uleb128 0x1
+ 2744 0038 13       		.uleb128 0x13
+ 2745 0039 00       		.byte	0
+ 2746 003a 00       		.byte	0
+ 2747 003b 06       		.uleb128 0x6
+ 2748 003c 21       		.uleb128 0x21
+ 2749 003d 00       		.byte	0
+ 2750 003e 49       		.uleb128 0x49
+ 2751 003f 13       		.uleb128 0x13
+ 2752 0040 2F       		.uleb128 0x2f
+ 2753 0041 05       		.uleb128 0x5
+ 2754 0042 00       		.byte	0
+ 2755 0043 00       		.byte	0
+ 2756 0044 07       		.uleb128 0x7
+ 2757 0045 26       		.uleb128 0x26
+ 2758 0046 00       		.byte	0
+ 2759 0047 49       		.uleb128 0x49
+ 2760 0048 13       		.uleb128 0x13
+ 2761 0049 00       		.byte	0
+ 2762 004a 00       		.byte	0
+ 2763 004b 08       		.uleb128 0x8
+ 2764 004c 34       		.uleb128 0x34
+ 2765 004d 00       		.byte	0
+ 2766 004e 03       		.uleb128 0x3
+ 2767 004f 0E       		.uleb128 0xe
+ 2768 0050 3A       		.uleb128 0x3a
+ 2769 0051 0B       		.uleb128 0xb
+ 2770 0052 3B       		.uleb128 0x3b
+ 2771 0053 0B       		.uleb128 0xb
+ 2772 0054 49       		.uleb128 0x49
+ 2773 0055 13       		.uleb128 0x13
+ 2774 0056 3F       		.uleb128 0x3f
+ 2775 0057 19       		.uleb128 0x19
+ 2776 0058 02       		.uleb128 0x2
+ 2777 0059 18       		.uleb128 0x18
+ 2778 005a 00       		.byte	0
+ 2779 005b 00       		.byte	0
+ 2780 005c 09       		.uleb128 0x9
+ 2781 005d 21       		.uleb128 0x21
+ 2782 005e 00       		.byte	0
+ 2783 005f 49       		.uleb128 0x49
+ 2784 0060 13       		.uleb128 0x13
+ 2785 0061 2F       		.uleb128 0x2f
+ 2786 0062 0B       		.uleb128 0xb
+ 2787 0063 00       		.byte	0
+ 2788 0064 00       		.byte	0
+ 2789 0065 0A       		.uleb128 0xa
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 50
+
+
+ 2790 0066 34       		.uleb128 0x34
+ 2791 0067 00       		.byte	0
+ 2792 0068 03       		.uleb128 0x3
+ 2793 0069 0E       		.uleb128 0xe
+ 2794 006a 3A       		.uleb128 0x3a
+ 2795 006b 0B       		.uleb128 0xb
+ 2796 006c 3B       		.uleb128 0x3b
+ 2797 006d 05       		.uleb128 0x5
+ 2798 006e 49       		.uleb128 0x49
+ 2799 006f 13       		.uleb128 0x13
+ 2800 0070 3F       		.uleb128 0x3f
+ 2801 0071 19       		.uleb128 0x19
+ 2802 0072 02       		.uleb128 0x2
+ 2803 0073 18       		.uleb128 0x18
+ 2804 0074 00       		.byte	0
+ 2805 0075 00       		.byte	0
+ 2806 0076 00       		.byte	0
+ 2807              		.section	.debug_aranges,"",%progbits
+ 2808 0000 14000000 		.4byte	0x14
+ 2809 0004 0200     		.2byte	0x2
+ 2810 0006 00000000 		.4byte	.Ldebug_info0
+ 2811 000a 04       		.byte	0x4
+ 2812 000b 00       		.byte	0
+ 2813 000c 0000     		.2byte	0
+ 2814 000e 0000     		.2byte	0
+ 2815 0010 00000000 		.4byte	0
+ 2816 0014 00000000 		.4byte	0
+ 2817              		.section	.debug_line,"",%progbits
+ 2818              	.Ldebug_line0:
+ 2819 0000 15010000 		.section	.debug_str,"MS",%progbits,1
+ 2819      02000F01 
+ 2819      00000201 
+ 2819      FB0E0D00 
+ 2819      01010101 
+ 2820              	.LASF9:
+ 2821 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 2821      6E74385F 
+ 2821      7400
+ 2822              	.LASF16:
+ 2823 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 2823      65746164 
+ 2823      61746100 
+ 2824              	.LASF19:
+ 2825 0016 443A5C4D 		.ascii	"D:\\MEGA\\UGR\\ESPECIALIDAD INGENIERIA DE COMPUTADO"
+ 2825      4547415C 
+ 2825      5547525C 
+ 2825      45535045 
+ 2825      4349414C 
+ 2826 0046 5245535C 		.ascii	"RES\\6CUATRIMESTRE\\DSE\\ProjectosPSoC5\\CY8CKIT-05"
+ 2826      36435541 
+ 2826      5452494D 
+ 2826      45535452 
+ 2826      455C4453 
+ 2827 0075 395F5053 		.ascii	"9_PSoC5LP\\PUERTA\\PUERTA\\FINAL.cydsn\000"
+ 2827      6F43354C 
+ 2827      505C5055 
+ 2827      45525441 
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 51
+
+
+ 2827      5C505545 
+ 2828              	.LASF1:
+ 2829 0099 756E7369 		.ascii	"unsigned char\000"
+ 2829      676E6564 
+ 2829      20636861 
+ 2829      7200
+ 2830              	.LASF17:
+ 2831 00a7 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2831      43313120 
+ 2831      352E342E 
+ 2831      31203230 
+ 2831      31363036 
+ 2832 00da 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2832      20726576 
+ 2832      6973696F 
+ 2832      6E203233 
+ 2832      37373135 
+ 2833 010d 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 2833      66756E63 
+ 2833      74696F6E 
+ 2833      2D736563 
+ 2833      74696F6E 
+ 2834              	.LASF5:
+ 2835 0135 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2835      20756E73 
+ 2835      69676E65 
+ 2835      6420696E 
+ 2835      7400
+ 2836              	.LASF3:
+ 2837 0147 73686F72 		.ascii	"short unsigned int\000"
+ 2837      7420756E 
+ 2837      7369676E 
+ 2837      65642069 
+ 2837      6E7400
+ 2838              	.LASF13:
+ 2839 015a 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 2839      6574615F 
+ 2839      63757374 
+ 2839      6E766C00 
+ 2840              	.LASF12:
+ 2841 016a 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 2841      6574615F 
+ 2841      636F6E66 
+ 2841      69676563 
+ 2841      6300
+ 2842              	.LASF8:
+ 2843 017c 756E7369 		.ascii	"unsigned int\000"
+ 2843      676E6564 
+ 2843      20696E74 
+ 2843      00
+ 2844              	.LASF7:
+ 2845 0189 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2845      206C6F6E 
+ 2845      6720756E 
+ 2845      7369676E 
+ 2845      65642069 
+ 2846              	.LASF10:
+ARM GAS  C:\Users\Hulidex\AppData\Local\Temp\ccFt9SEK.s 			page 52
+
+
+ 2847 01a0 75696E74 		.ascii	"uint8_t\000"
+ 2847      385F7400 
+ 2848              	.LASF15:
+ 2849 01a8 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 2849      6574615F 
+ 2849      666C6173 
+ 2849      6870726F 
+ 2849      74656374 
+ 2850              	.LASF14:
+ 2851 01bd 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 2851      6574615F 
+ 2851      776F6E76 
+ 2851      6C00
+ 2852              	.LASF11:
+ 2853 01cb 73697A65 		.ascii	"sizetype\000"
+ 2853      74797065 
+ 2853      00
+ 2854              	.LASF6:
+ 2855 01d4 6C6F6E67 		.ascii	"long long int\000"
+ 2855      206C6F6E 
+ 2855      6720696E 
+ 2855      7400
+ 2856              	.LASF2:
+ 2857 01e2 73686F72 		.ascii	"short int\000"
+ 2857      7420696E 
+ 2857      7400
+ 2858              	.LASF4:
+ 2859 01ec 6C6F6E67 		.ascii	"long int\000"
+ 2859      20696E74 
+ 2859      00
+ 2860              	.LASF0:
+ 2861 01f5 7369676E 		.ascii	"signed char\000"
+ 2861      65642063 
+ 2861      68617200 
+ 2862              	.LASF18:
+ 2863 0201 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 2863      72617465 
+ 2863      645F536F 
+ 2863      75726365 
+ 2863      5C50536F 
+ 2864              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
